@@ -1,2 +1,3 @@
-# The Vala Manual Project
+# Introduction
+
 
