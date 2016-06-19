@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * License
 * [Overview](overview.md)
    * [Getting Started](getting_started.md)
    * [Documentation Conventions](documentation_conventions.md)
@@ -103,7 +104,6 @@
    * [Examples](generics-examples.md)
 * [Structs](structs.md)
    * [Struct declaration](struct-declaration.md)
-   * [Controlling instantiation](controlling-instantiation.md)
    * [Struct fields](struct-fields.md)
    * [Struct constants](struct-constants.md)
    * [Struct methods](struct-methods.md)
@@ -111,7 +111,6 @@
 * [Enumerated types (Enums)](enums.md)
    * [Enum declaration](enum-declaration.md)
    * [Enum members](enum-members.md)
-   * [Methods](methods.md)
    * [Flag types](flag-types.md)
    * [Error domains](error-domains.md)
    * [Examples](enum-examples.md)
@@ -144,7 +143,6 @@
    * [Examples](gidl-examples.md)
 * [GIR metadata format](gir.md)
    * [Locating metadata](locating-metadata.md)
-   * [Comments](comments.md)
    * [Syntax](syntax.md)
    * [Valid arguments](valid-arguments.md)
    * [Examples](gir-examples.md)
