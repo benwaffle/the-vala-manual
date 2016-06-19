@@ -1,4 +1,4 @@
-<div id="incrementdecrement-operations" class="section level1">
+
 
 Increment/decrement operations
 ==============================
@@ -31,4 +31,3 @@ are equivalent to:
                        var prefix = j;
             
 
-</div>

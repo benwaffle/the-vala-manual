@@ -1,4 +1,4 @@
-<div id="applying-attributes" class="section level1">
+
 
 Applying attributes
 ===================
@@ -38,4 +38,3 @@ For example:
         
 ```
 
-</div>

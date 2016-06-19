@@ -1,15 +1,11 @@
-<div id="assignment-operations" class="section level1">
+
 
 Assignment operations
 =====================
 
 Value assigned to identifier on left. Type must match.
 
-When assignment includes another operation natural result type must
-match the declared type of variable which is the left hand side of the
-expression. e.g. Let a be an int instance with the value 1, a += 0.5 is
-not allowed, as the natural result type of 1 + 0.5 is a float, not an
-int.
+When assignment includes another operation natural result type must match the declared type of variable which is the left hand side of the expression. e.g. Let a be an int instance with the value 1, a += 0.5 is not allowed, as the natural result type of 1 + 0.5 is a float, not an int.
 
 -   assignment-expression:
 
@@ -43,9 +39,7 @@ int.
 
         conditional-expression **\>\>=** expression
 
-A simple assignment expression assigns the right handed side value to
-the left handed side. It is necessary that the left handed side
-expression is a valid lvalue. Other assignments:
+A simple assignment expression assigns the right handed side value to the left handed side. It is necessary that the left handed side expression is a valid lvalue. Other assignments:
 
               result += value;
                        result <<= value;
@@ -59,4 +53,3 @@ Are equivalent to simple assignments:
                        ...
             
 
-</div>

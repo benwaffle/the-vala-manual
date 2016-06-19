@@ -1,4 +1,4 @@
-<div id="built-in-defines" class="section level1">
+
 
 Built-in defines
 ================
@@ -12,4 +12,3 @@ Built-in defines
   DBUS\_GLIB   Set if using dbus-glib-1 package
   ------------ -----------------------------------------------------------
 
-</div>

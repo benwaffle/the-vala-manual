@@ -1,4 +1,4 @@
-<div id="description-attribute" class="section level1">
+
 
 Description Attribute
 =====================
@@ -12,4 +12,3 @@ mostly for the GObject type system.
   blurb      string
   ---------- ----------
 
-</div>

@@ -1,4 +1,4 @@
-<div id="getting-started" class="section level1">
+
 
 Getting started
 ===============
@@ -37,9 +37,5 @@ Store the code in a file whose name ends in ".vala", such as
 
 `valac -o hello hello.vala`
 
-This will produce an executable file called `hello` . "valac" is the
-Vala compiler; it will also allow you to take more control of the
-compile and link processes when required, but that is outside the scope
-of this introductory section.
+This will produce an executable file called `hello` . "valac" is the Vala compiler; it will also allow you to take more control of the compile and link processes when required, but that is outside the scope of this introductory section.
 
-</div>

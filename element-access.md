@@ -1,4 +1,4 @@
-<div id="element-access" class="section level1">
+
 
 Element access
 ==============
@@ -44,4 +44,3 @@ struct, etc.) as containers:
     returns **void** , then indexes will be used as arguments and the
     assigned value as last argument..
 
-</div>

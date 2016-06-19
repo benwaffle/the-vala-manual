@@ -1,4 +1,4 @@
-<div id="bitwise-operations" class="section level1">
+
 
 Bitwise operations
 ==================
@@ -29,12 +29,9 @@ Documentation
 
         additive-expression **\>\>** additive-expression
 
-Shifts the bits of the left argument left/right by the number
-represented by the second argument.
+Shifts the bits of the left argument left/right by the number represented by the second argument.
 
-Undefined for shifting further than data size, e.g. with a 32 bit
-integer...
+Undefined for shifting further than data size, e.g. with a 32 bit integer...
 
 Documentation
 
-</div>

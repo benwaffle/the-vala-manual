@@ -1,4 +1,4 @@
-<div id="struct-instantiation" class="section level1">
+
 
 Struct instantiation
 ====================
@@ -15,4 +15,3 @@ Struct instantiation
 
     -   expression [ **,** arguments ]
 
-</div>

@@ -1,4 +1,4 @@
-<div id="struct-fields" class="section level1">
+
 
 Struct fields
 =============
@@ -14,4 +14,3 @@ Documentation
 
     -   **static**
 
-</div>

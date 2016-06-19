@@ -1,4 +1,4 @@
-<div id="types-of-class" class="section level1">
+
 
 Types of class
 ==============
@@ -27,7 +27,5 @@ Vala supports three different types of class:
     not massively useful except when dealing with existing libraries.
     They are declared using the Compact attribute on the class, See
 
-Any non-compact class can also be defined as abstract. An abstract class
-cannot be instantiated and is used as a base class for derived classes.
+Any non-compact class can also be defined as abstract. An abstract class cannot be instantiated and is used as a base class for derived classes.
 
-</div>

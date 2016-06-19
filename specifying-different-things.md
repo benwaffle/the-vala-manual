@@ -1,4 +1,4 @@
-<div id="specifying-different-things" class="section level1">
+
 
 Specifying Different Things
 ===========================
@@ -24,4 +24,3 @@ For example, hiding a symbol:
   Field      `Foo.bar hidden="1"`
   ---------- ----------------------------
 
-</div>

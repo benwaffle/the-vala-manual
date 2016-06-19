@@ -1,4 +1,4 @@
-<div id="other-attributes" class="section level1">
+
 
 Other attributes
 ================
@@ -81,4 +81,3 @@ Other attributes
                                                     Dova profile only
   ------------------------ ------------------------ ------------------------
 
-</div>

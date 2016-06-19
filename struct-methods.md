@@ -1,12 +1,11 @@
-<div id="struct-methods" class="section level1">
+
 
 Struct methods
 ==============
 
 See
 [Methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#)
-, See [Classes/Class
-methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Class_methods)
+, See [Classes/Class methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Class_methods)
 
 -   struct-method-declaration:
 
@@ -18,4 +17,3 @@ methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manu
 
     -   **static**
 
-</div>

@@ -1,4 +1,4 @@
-<div id="enum-declaration" class="section level1">
+
 
 Enum declaration
 ================
@@ -40,4 +40,3 @@ Enum declaration
 
     -   method-declaration
 
-</div>

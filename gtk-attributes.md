@@ -1,4 +1,4 @@
-<div id="gtk-attributes" class="section level1">
+
 
 Gtk attributes
 ==============
@@ -25,8 +25,7 @@ argument is mandatory.
 **GtkChild attribute**
 
 Can only be applied to fields of classes being marked with
-[GtkTemplate]. It's used to connect a field with a child object in the
-Gtk builder definition.
+[GtkTemplate]. It's used to connect a field with a child object in the Gtk builder definition.
 
   ------------------------ ------------------------ ------------------------
   **Name**                 **Type**                 **Example**
@@ -53,8 +52,7 @@ Gtk builder definition.
 **GtkCallback attribute**
 
 Can only be applied to methods of classes being marked with
-[GtkTemplate]. It's used to connect to a signal defined in the Gtk
-builder ui with the marked method.
+[GtkTemplate]. It's used to connect to a signal defined in the Gtk builder ui with the marked method.
 
   ------------------------ ------------------------ ------------------------
   **Name**                 **Type**                 **Example**
@@ -71,4 +69,3 @@ builder ui with the marked method.
   method is used.                                   
   ------------------------ ------------------------ ------------------------
 
-</div>

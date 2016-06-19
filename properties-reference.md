@@ -1,4 +1,4 @@
-<div id="properties-reference" class="section level1">
+
 
 Properties Reference
 ====================
@@ -289,4 +289,3 @@ And in alphabetical order:
                                                            weak
   ------------------ ------------------ ------------------ ------------------
 
-</div>

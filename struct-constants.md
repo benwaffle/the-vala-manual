@@ -1,4 +1,4 @@
-<div id="struct-constants" class="section level1">
+
 
 Struct constants
 ================
@@ -8,4 +8,3 @@ Struct constants
     -   [ class-access-modifier ] **const** qualified-type-name
         constant-name **=** expression ;
 
-</div>

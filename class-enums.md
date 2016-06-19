@@ -1,11 +1,9 @@
-<div id="class-enums" class="section level1">
+
 
 Class enums
 ===========
 
-Enums defined in a class are basically the same as those defined in a
-namespace. The only difference is the scope and the choice of
-visibilities available. See [Enumerated types
+Enums defined in a class are basically the same as those defined in a namespace. The only difference is the scope and the choice of visibilities available. See [Enumerated types
 (Enums)](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Enumerated%20types%20%28Enums%29#)
 .
 
@@ -14,4 +12,3 @@ visibilities available. See [Enumerated types
     -   [ class-member-visibility-modifier ] **enum** enum-name **{** [
         enum-members ] **}**
 
-</div>

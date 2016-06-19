@@ -1,4 +1,4 @@
-<div id="simple-statements" class="section level1">
+
 
 Simple statements
 =================
@@ -10,11 +10,7 @@ and so can be used wherever a statement is required.
 
     -   **;**
 
-A Simple Statement consists of one a subset of expressions that are
-considered free-standing. Not all expressions are allowed, only those
-that potentially have a useful side effect - for example, arithmetic
-expressions cannot form simple statements on their own, but are allowed
-as part of an assignement expressions, which has a useful side effect.
+A Simple Statement consists of one a subset of expressions that are considered free-standing. Not all expressions are allowed, only those that potentially have a useful side effect - for example, arithmetic expressions cannot form simple statements on their own, but are allowed as part of an assignement expressions, which has a useful side effect.
 
 -   simple-statement:
 
@@ -30,8 +26,7 @@ as part of an assignement expressions, which has a useful side effect.
 
         invocation-expression
 
-A Statement Block allows several statements to be used in a context that
-would otherwise only allow one.
+A Statement Block allows several statements to be used in a context that would otherwise only allow one.
 
 -   statement-block:
 
@@ -41,9 +36,6 @@ would otherwise only allow one.
 
     -   statement [ statement-list ]
 
-Blocks create anonymous, transient scopes. For more details about
-scopes, see [Concepts/Scope and
-naming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Scope_and_naming)
+Blocks create anonymous, transient scopes. For more details about scopes, see [Concepts/Scope and naming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Scope_and_naming)
 .
 
-</div>

@@ -1,10 +1,9 @@
-<div id="integertype-attribute" class="section level1">
+
 
 IntegerType Attribute
 =====================
 
-This attribute is applied to structs, combined with SimpleType. Marks
-the struct as being an integer number type.
+This attribute is applied to structs, combined with SimpleType. Marks the struct as being an integer number type.
 
   ---------- ----------
   **Name**   **Type**
@@ -15,4 +14,3 @@ the struct as being an integer number type.
   signed     bool
   ---------- ----------
 
-</div>

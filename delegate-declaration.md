@@ -1,12 +1,9 @@
-<div id="delegate-declaration" class="section level1">
+
 
 Delegate declaration
 ====================
 
-The syntax for declaring a delegate changes slightly based on what sort
-of delegate is being declared. This section shows the form for a
-namespace delegate. Many of the parts of the declaration are common to
-all types, so sections from here are referenced from class delegates,
+The syntax for declaring a delegate changes slightly based on what sort of delegate is being declared. This section shows the form for a namespace delegate. Many of the parts of the declaration are common to all types, so sections from here are referenced from class delegates,
 interface delegates, etc.
 
 -   delegate-declaration:
@@ -35,9 +32,7 @@ interface delegates, etc.
 
     -   identifier
 
-Parts of this syntax are based on the respective sections of the method
-decleration syntax (see
+Parts of this syntax are based on the respective sections of the method decleration syntax (see
 [Methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#)
 for details).
 
-</div>

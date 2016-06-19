@@ -1,4 +1,4 @@
-<div id="syntax" class="section level1">
+
 
 Syntax
 ======
@@ -67,4 +67,3 @@ Metadata information for each symbol must provided on different lines:
     rule* . Metadata must contain at least one absolute rule. It's not
     possible to make a rule relative to another relative rule.
 
-</div>

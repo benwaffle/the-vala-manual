@@ -1,4 +1,4 @@
-<div id="examples-5" class="section level1">
+
 
 Examples
 ========
@@ -272,10 +272,9 @@ Demonstrating...
         
 ```
 
-Back to [Vala Reference
-Manual](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual#)
+Back to [Vala Reference Manual](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual#)
 
-<div id="structs" class="section level2">
+
 
 Structs
 -------
@@ -298,8 +297,7 @@ The simplest struct declaration looks like this:
       
 ```
 
-A struct must have at least one field, except in either one of the
-following cases:
+A struct must have at least one field, except in either one of the following cases:
 
 -   It's external
 
@@ -308,6 +306,4 @@ following cases:
 
 -   It inherits from another struct
 
-</div>
 
-</div>

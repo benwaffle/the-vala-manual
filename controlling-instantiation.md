@@ -1,11 +1,9 @@
-<div id="controlling-instantiation" class="section level1">
+
 
 Controlling instantiation
 =========================
 
-When a class is instantiated, data might be required from the user to
-set initial properties. To define which properties should be or can be
-set at this stage, the class declaration should be written as:
+When a class is instantiated, data might be required from the user to set initial properties. To define which properties should be or can be set at this stage, the class declaration should be written as:
 
 ``` {.vala}
           class
@@ -47,10 +45,7 @@ set at this stage, the class declaration should be written as:
 
 This example allows the
 [ClassName](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/ClassName#)
-class to be instantiated either setting no properties, or setting the
-property. The convention is to name constructors as "with\_" and then a
-description of what the extra properties will be used for, though
-following this is optional.
+class to be instantiated either setting no properties, or setting the property. The convention is to name constructors as "with\_" and then a description of what the extra properties will be used for, though following this is optional.
 
 -   class-creation-method-declaration:
 
@@ -70,16 +65,12 @@ following this is optional.
 
     -   this **.** property-name **=** param-name **;**
 
-class-name must be the same as the name of the class. If a creation
-method is given an extra name, this name is also used with instantiating
-the class, using the same syntax as for declaring the method, e.g.
+class-name must be the same as the name of the class. If a creation method is given an extra name, this name is also used with instantiating the class, using the same syntax as for declaring the method, e.g.
 `var a = new Button.with_label ("text")` .
 
-If the property being set is construct type then assignment is made
-before construction, else afterwards.
+If the property being set is construct type then assignment is made before construction, else afterwards.
 
-Any number of these are allowed, but only one with each name (including
-null name.)
+Any number of these are allowed, but only one with each name (including null name.)
 
 > **Note**
 >
@@ -108,23 +99,20 @@ null name.)
 
     -   **construct** **{** statement-list **}**
 
-Code in this block is executed on every instance of the class that is
-instantiated. It is run after construction properties have been set.
+Code in this block is executed on every instance of the class that is instantiated. It is run after construction properties have been set.
 
 -   class-class-constructor-declaration:
 
     -   **class** **construct** **{** statement-list **}**
 
-This block will be executed once at the first use of its class, and once
-at the first use of each subclass of this class.
+This block will be executed once at the first use of its class, and once at the first use of each subclass of this class.
 
 -   class-static-constructor-declaration:
 
     -   **static** **construct** **{** statement-list **}**
 
 The first time that a class, or any subclass of it, is instantiated,
-this code is run. It is guaranteed that this code will run exactly once
-in a program where such a class is used.
+this code is run. It is guaranteed that this code will run exactly once in a program where such a class is used.
 
 The order of execution for constructors:
 
@@ -134,4 +122,3 @@ The order of execution for constructors:
 
 Destruction here. When does it happen? And when for each type of class?
 
-</div>

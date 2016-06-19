@@ -1,4 +1,4 @@
-<div id="coalescing-expressions" class="section level1">
+
 
 Coalescing expressions
 ======================
@@ -11,4 +11,3 @@ Coalescing expressions
 
     -   logical-or-expression
 
-</div>

@@ -1,4 +1,4 @@
-<div id="lambda-expressions" class="section level1">
+
 
 Lambda expressions
 ==================
@@ -29,4 +29,3 @@ Lambda expressions
 
         expression
 
-</div>

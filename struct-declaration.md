@@ -1,4 +1,4 @@
-<div id="struct-declaration" class="section level1">
+
 
 Struct declaration
 ==================
@@ -30,7 +30,5 @@ Struct declaration
 
         struct-method-declaration
 
-If a super-struct is given, the struct-name becomes an alias for that
-struct.
+If a super-struct is given, the struct-name becomes an alias for that struct.
 
-</div>

@@ -1,10 +1,9 @@
-<div id="directives-syntax" class="section level1">
+
 
 Directives syntax
 =================
 
-All preprocessor directives start with a hash ( **\#** ), except for the
-first line of a file starting with **\#!** (used for Vala scripts).
+All preprocessor directives start with a hash ( **\#** ), except for the first line of a file starting with **\#!** (used for Vala scripts).
 
 -   vala-code:
 
@@ -73,10 +72,6 @@ first line of a file starting with **\#!** (used for Vala scripts).
 
     -   identifier
 
-The semantics of the preprocessor are very simple: if the condition is
-true then the Vala code surrounded by the preprocessor will be parsed,
-otherwise it will be ignored. A symbol evaluates to **true** if it is
-defined at compile-time. If a symbol in a preprocessor directive is not
-defined, it evaluates to **false** .
+The semantics of the preprocessor are very simple: if the condition is true then the Vala code surrounded by the preprocessor will be parsed,
+otherwise it will be ignored. A symbol evaluates to **true** if it is defined at compile-time. If a symbol in a preprocessor directive is not defined, it evaluates to **false** .
 
-</div>

@@ -1,4 +1,4 @@
-<div id="interface-declaration" class="section level1">
+
 
 Interface declaration
 =====================
@@ -64,4 +64,3 @@ Interface declaration
 
         interface-static-method-declaration
 
-</div>

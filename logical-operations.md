@@ -1,10 +1,9 @@
-<div id="logical-operations" class="section level1">
+
 
 Logical operations
 ==================
 
-Applicable to boolean type operands, return value is of boolean type. No
-non boolean type instances are automatically converted.
+Applicable to boolean type operands, return value is of boolean type. No non boolean type instances are automatically converted.
 
 -   logical-or-expression:
 
@@ -22,4 +21,3 @@ Documentation
 
     -   **!** expression
 
-</div>

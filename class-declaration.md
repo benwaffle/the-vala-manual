@@ -1,4 +1,4 @@
-<div id="class-declaration" class="section level1">
+
 
 Class declaration
 =================
@@ -90,14 +90,8 @@ Class declaration
     -   [ access-modifier ] **class** class-name [ inheritance-list ]
         **{** [ class-members ] **}**
 
-In Vala, a class must have either one or zero superclasses, where have
-zero superclasses has the result described in [Classes/Types of
-class](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Types_of_class)
-section. A class must meet all the prerequisites defined by the
-interfaces it wishes to implement, by implementing prerequisite
-interfaces or inheriting from a particular class. This latter
-requirement means it is potentially possible to have two interfaces that
-cannot be implemented by a single class.
+In Vala, a class must have either one or zero superclasses, where have zero superclasses has the result described in [Classes/Types of class](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Types_of_class)
+section. A class must meet all the prerequisites defined by the interfaces it wishes to implement, by implementing prerequisite interfaces or inheriting from a particular class. This latter requirement means it is potentially possible to have two interfaces that cannot be implemented by a single class.
 
 > **Note**
 >
@@ -115,15 +109,7 @@ cannot be implemented by a single class.
 If an access modifier for the class is not given, the default "public"
 is used.
 
-It is possible to declare a class definition to be "abstract." An
-abstract class is one they may not be instantiated, instead it first be
-subclassed by a non-abstract ("concrete") class. An abstract class
-declaration may include abstract class instance members. These act as
-templates for methods or properties that must be implemented in all
-concrete subclasses of the abstract class. It is thus guaranteed that
-any instance of the abstract class (which must be in fact an instance of
-a concrete subclass) will have a method or property as described in the
-abstract class definition.
+It is possible to declare a class definition to be "abstract." An abstract class is one they may not be instantiated, instead it first be subclassed by a non-abstract ("concrete") class. An abstract class declaration may include abstract class instance members. These act as templates for methods or properties that must be implemented in all concrete subclasses of the abstract class. It is thus guaranteed that any instance of the abstract class (which must be in fact an instance of a concrete subclass) will have a method or property as described in the abstract class definition.
 
 -   abstract-class-declaration:
 
@@ -138,4 +124,3 @@ abstract class definition.
 
         class-instance-abstract-property-declaration
 
-</div>

@@ -1,4 +1,4 @@
-<div id="types-of-class-members" class="section level1">
+
 
 Types of class members
 ======================
@@ -20,11 +20,5 @@ instance, class and static.
     sub-classes of it. They can be accessed without an instance of the
     class, and static methods will execute in the scope of the class.
 
-The distinction between class and static members is not common to other
-object models. The essential difference is that a sub-class will recieve
-a copy of all its base classes' class members. This is opposed to static
-members, of which there is only one copy - sub classes access can their
-base classes' static members because they are automatically imported
-into the class' scope.
+The distinction between class and static members is not common to other object models. The essential difference is that a sub-class will recieve a copy of all its base classes' class members. This is opposed to static members, of which there is only one copy - sub classes access can their base classes' static members because they are automatically imported into the class' scope.
 
-</div>

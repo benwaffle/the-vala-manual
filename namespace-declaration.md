@@ -1,4 +1,4 @@
-<div id="namespace-declaration" class="section level1">
+
 
 Namespace declaration
 =====================
@@ -44,4 +44,3 @@ Namespace declaration
 
         struct-declaration
 
-</div>

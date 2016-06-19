@@ -1,4 +1,4 @@
-<div id="conditional-expressions" class="section level1">
+
 
 Conditional expressions
 =======================
@@ -22,10 +22,5 @@ Allow a conditional in a single expression.
 
     -   expression
 
-First boolean-expression is evaluated. If true, then the
-conditional-true-clause is evaluated, and its result is the result of
-the conditional expression. If the boolean expression evaluates to
-false, then the conditional-false-clause is evaluated, and its result
-becomes the result of the conditional expression.
+First boolean-expression is evaluated. If true, then the conditional-true-clause is evaluated, and its result is the result of the conditional expression. If the boolean expression evaluates to false, then the conditional-false-clause is evaluated, and its result becomes the result of the conditional expression.
 
-</div>

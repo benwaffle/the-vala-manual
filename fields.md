@@ -1,12 +1,9 @@
-<div id="fields-1" class="section level1">
+
 
 Fields
 ======
 
-Variables that exist directly in a namespace are known as namespace
-fields. These exist only once, and within the scope of the namespace
-which exists for the application's entire run time. They are therefore
-similar to global variables in C but without the risk of naming clashes.
+Variables that exist directly in a namespace are known as namespace fields. These exist only once, and within the scope of the namespace which exists for the application's entire run time. They are therefore similar to global variables in C but without the risk of naming clashes.
 
 -   field-declaration:
 
@@ -17,8 +14,6 @@ similar to global variables in C but without the risk of naming clashes.
 
     -   identifier
 
-Fields in general are described at [Concepts/Variables, fields and
-parameters](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Variables,_fields_and_parameters)
+Fields in general are described at [Concepts/Variables, fields and parameters](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Variables,_fields_and_parameters)
 .
 
-</div>

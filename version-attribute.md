@@ -1,10 +1,9 @@
-<div id="version-attribute" class="section level1">
+
 
 Version attribute
 =================
 
-Used to annotate symbols with versioning information. Available since
-Vala 0.31.1.
+Used to annotate symbols with versioning information. Available since Vala 0.31.1.
 
   --------------------- ---------- -------------------------------------------------------------------------------------
   **Name**              **Type**   **Description**
@@ -16,4 +15,3 @@ Vala 0.31.1.
   experimental\_until   string     Version number
   --------------------- ---------- -------------------------------------------------------------------------------------
 
-</div>

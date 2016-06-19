@@ -1,10 +1,9 @@
-<div id="deprecated-attributes" class="section level1">
+
 
 Deprecated Attributes
 =====================
 
-Attributes that have been deprecated and should no longer be used in new
-code.
+Attributes that have been deprecated and should no longer be used in new code.
 
   -------------- -------------------------------------------------------------------------
   **Name**       **Use instead**
@@ -12,4 +11,3 @@ code.
   Experimental   [Version (experimental = true, experimental\_until = "")]
   -------------- -------------------------------------------------------------------------
 
-</div>

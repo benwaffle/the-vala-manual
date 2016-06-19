@@ -1,4 +1,4 @@
-<div id="signal-attribute" class="section level1">
+
 
 Signal Attribute
 ================
@@ -35,4 +35,3 @@ mostly for the GObject type system. The default is G\_SIGNAL\_RUN\_LAST.
   Sets the G\_SIGNAL\_NO\_HOOKS flag.  
   ------------------------------------ ------------------------------------
 
-</div>

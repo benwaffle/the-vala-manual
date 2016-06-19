@@ -1,20 +1,13 @@
-<div id="class-methods" class="section level1">
+
 
 Class methods
 =============
 
-Class methods are methods bound to a particularly class or class
-instance, i.e. they are executed within the scope of that class or class
-instance. They are declared the same way as other methods, but within
-the declaration of a class.
+Class methods are methods bound to a particularly class or class instance, i.e. they are executed within the scope of that class or class instance. They are declared the same way as other methods, but within the declaration of a class.
 
-The same visibility modifiers can be used as for fields, although in
-this case they refer to what code can call the methods, rather than who
-can see or change values.
+The same visibility modifiers can be used as for fields, although in this case they refer to what code can call the methods, rather than who can see or change values.
 
-The `static` modifier is applicable to methods also. A static method is
-independent of any instance of the class. It is therefore only in the
-class scope, and may only access other `static` members.
+The `static` modifier is applicable to methods also. A static method is independent of any instance of the class. It is therefore only in the class scope, and may only access other `static` members.
 
 -   class-instance-method-declaration:
 
@@ -41,23 +34,11 @@ class scope, and may only access other `static` members.
 
         **override**
 
-Methods can be virtual, as described in [Concepts/Object oriented
-programming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Object_oriented_programming)
+Methods can be virtual, as described in [Concepts/Object oriented programming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Object_oriented_programming)
 . Methods in Vala classes are not virtual automatically, instead the
-"virtual" modifier must be used when it is needed. Virtual methods will
-only chain up if overridden using the override keyword.
+"virtual" modifier must be used when it is needed. Virtual methods will only chain up if overridden using the override keyword.
 
-Vala classes may also define abstract methods, by writing the
-declaration with the "abstract" modifier and replacing the method body
-with an empty statement ";". Abstract methods are not true methods, as
-they do not have an associated statement block, and so cannot be
-invoked. Abstract methods can only exist in abstract classes, and must
-be overridden in derived classes. For this reason an abstract method is
-always virtual. The purpose of an abstract method is to define methods
-that all non-abstract subclasses of the current definition must
-implement, it is therefore always allowable to invoke the method on an
-instance of the abstract class, because it is required that that
-instance must in fact be of a non-abstract subclass.
+Vala classes may also define abstract methods, by writing the declaration with the "abstract" modifier and replacing the method body with an empty statement ";". Abstract methods are not true methods, as they do not have an associated statement block, and so cannot be invoked. Abstract methods can only exist in abstract classes, and must be overridden in derived classes. For this reason an abstract method is always virtual. The purpose of an abstract method is to define methods that all non-abstract subclasses of the current definition must implement, it is therefore always allowable to invoke the method on an instance of the abstract class, because it is required that that instance must in fact be of a non-abstract subclass.
 
 -   class-instance-abstract-method-declaration:
 
@@ -103,7 +84,7 @@ instance must in fact be of a non-abstract subclass.
 > [Interfaces](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Interfaces#)
 > .)
 
-<div id="declaration" class="section level2">
+
 
 Declaration
 -----------
@@ -179,79 +160,50 @@ Declaration
 
     -   **default** **=** expression **;**
 
-</div>
 
-<div id="execute-code-on-settinggetting-values" class="section level2">
+
 
 Execute Code on Setting/Getting Values
 --------------------------------------
 
-Properties can either be declared with code that will perform particular
-actions on get and set, or can simply declare which actions are allowed
-and allow Vala to implement simple get and set methods. This second
-pattern (automatic property) will result in fields being added to the
-class to store values that the property will get and set. If either get
-or set has custom code, then the other must either be also written in
-full, or omitted altogether.
+Properties can either be declared with code that will perform particular actions on get and set, or can simply declare which actions are allowed and allow Vala to implement simple get and set methods. This second pattern (automatic property) will result in fields being added to the class to store values that the property will get and set. If either get or set has custom code, then the other must either be also written in full, or omitted altogether.
 
 When a value is assigned to a property, the **set** block is invoked,
-with a parameter called **value** of the same type as the property. When
-a value is requested from a property, the **get** block is invoked, and
-must return an instance of the same type of the property.
+with a parameter called **value** of the same type as the property. When a value is requested from a property, the **get** block is invoked, and must return an instance of the same type of the property.
 
-</div>
 
-<div id="construct-set-construct-block" class="section level2">
+
 
 Construct / Set Construct Block
 -------------------------------
 
-A property may have zero or one **construct** blocks. This means either
-a **set construct** block or a separate **construct** block. If this is
-the case that then the property becomes a construct property, meaning
-that if it is set in creation method, it will be set (using the
-construct block, as opposed to any simple **set** block, where there is
-a distinction) before class construct blocks are called.
+A property may have zero or one **construct** blocks. This means either a **set construct** block or a separate **construct** block. If this is the case that then the property becomes a construct property, meaning that if it is set in creation method, it will be set (using the construct block, as opposed to any simple **set** block, where there is a distinction) before class construct blocks are called.
 
-</div>
 
-<div id="notify-changes-signals" class="section level2">
+
 
 Notify Changes Signals
 ----------------------
 
 Managed properties may be annotated with Notify, See
 [Attributes](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Attributes#)
-. This will cause the class instance to emit a notify signal when the
-property has been assigned to.
+. This will cause the class instance to emit a notify signal when the property has been assigned to.
 
-</div>
 
-<div id="virtual-properties" class="section level2">
+
 
 Virtual Properties
 ------------------
 
-Instance properties can be defined virtual with the same semantics as
-for virtual methods. If in an abstract class, an instance property can
-be defined as abstract. This is done using the "abstract" keyword on a
-declaration that is otherwise the same as an automatic property. It is
-then the responsibility of derived classes to implement the property by
-providing get or set blocks as appropriate. An abstract property is
-automatically virtual.
+Instance properties can be defined virtual with the same semantics as for virtual methods. If in an abstract class, an instance property can be defined as abstract. This is done using the "abstract" keyword on a declaration that is otherwise the same as an automatic property. It is then the responsibility of derived classes to implement the property by providing get or set blocks as appropriate. An abstract property is automatically virtual.
 
-</div>
 
-<div id="abstract-properties" class="section level2">
+
 
 Abstract Properties
 -------------------
 
-As with methods, it is possible to declare abstract properties. These
-have much the same semantics as abstract methods, i.e. all non-abstract
-subclasses will have to implement properties with at least the accessors
-defined in the abstract property. Any **set construct** or construct
-accessor must be defined too in non-abstract classes and use
+As with methods, it is possible to declare abstract properties. These have much the same semantics as abstract methods, i.e. all non-abstract subclasses will have to implement properties with at least the accessors defined in the abstract property. Any **set construct** or construct accessor must be defined too in non-abstract classes and use
 **override** .
 
 -   class-instance-abstract-property-declaration:
@@ -260,6 +212,4 @@ accessor must be defined too in non-abstract classes and use
         qualified-type-name property-name **{** automatic-accessors
         **}** **;**
 
-</div>
 
-</div>

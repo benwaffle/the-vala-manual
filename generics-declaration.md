@@ -1,14 +1,11 @@
-<div id="generics-declaration" class="section level1">
+
 
 Generics declaration
 ====================
 
-Some of the syntax could be best placed in the class/interface/struct
-pages, but that might overcomplicate them...
+Some of the syntax could be best placed in the class/interface/struct pages, but that might overcomplicate them...
 
-In class declaration - In struct declaration - In interface
-declaration - In base class declaration - In implemented interfaces
-declaration - In prerequesite class/interface declaration.
+In class declaration - In struct declaration - In interface declaration - In base class declaration - In implemented interfaces declaration - In prerequesite class/interface declaration.
 
 Declaration with type parameters introduces new types into that scope,
 identified by names given in declaration, e.g. T.
@@ -50,7 +47,5 @@ identified by names given in declaration, e.g. T.
 
 type-identifier will be the type-name for the parameterised type.
 
-Deal is: in the class/interface/struct sections, replace
-qualified-\*-name with qualified-\*-name-with-generic.
+Deal is: in the class/interface/struct sections, replace qualified-\*-name with qualified-\*-name-with-generic.
 
-</div>

@@ -1,4 +1,4 @@
-<div id="valid-arguments" class="section level1">
+
 
 Valid arguments
 ===============
@@ -37,4 +37,3 @@ Valid arguments
   throws                 method                                                string     Type of exception the method throws
   ---------------------- ----------------------------------------------------- ---------- -------------------------------------------------------------------------------------------------------------
 
-</div>

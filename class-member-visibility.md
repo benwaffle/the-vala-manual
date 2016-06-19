@@ -1,11 +1,9 @@
-<div id="class-member-visibility" class="section level1">
+
 
 Class member visibility
 =======================
 
-All class members have a visibility. This defines whether the member is
-visible to code in different locations. Visibility is declared using the
-follow mutually exclusive modifiers:
+All class members have a visibility. This defines whether the member is visible to code in different locations. Visibility is declared using the follow mutually exclusive modifiers:
 
 -   class-member-visibility-modifier:
 
@@ -31,4 +29,3 @@ follow mutually exclusive modifiers:
 > A field or method's protected status cannot be enforced in the C
 > translation of a Vala library.
 
-</div>
