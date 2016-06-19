@@ -22,5 +22,6 @@
    * [Parameterised types](parameterised_types.md)
    * [Nullable types](nullable_types.md)
    * [Pointer types](pointer_types.md)
+   * Type conversions
 * [Expressions](expressions.md)
 
