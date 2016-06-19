@@ -15,12 +15,9 @@ All class members have a visibility. This defines whether the member is visible 
 
 -   "public" asserts that the member should be visible to any code.
 
--   "protected" asserts that the member will be visible to any code
-    within this class, and also to any code that is in a subclass of
-    this class.
+-   "protected" asserts that the member will be visible to any code within this class, and also to any code that is in a subclass of this class.
 
--   "private" asserts that the member will only be visible to code that
-    is within this class declaration.
+-   "private" asserts that the member will only be visible to code that is within this class declaration.
 
 > **Note**
 >

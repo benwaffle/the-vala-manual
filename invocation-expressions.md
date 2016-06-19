@@ -13,8 +13,7 @@ Invocation expressions
 
 The expression can refer to any callable: a method, a delegate or a signal. The type of the expression depends upon the return type of the callable symbol. Each argument expression type must be compatible against the respective callable parameter type. If an argument is not provided for a parameter then:
 
-1.  If the parameter has a default value, then that value will be used
-    as argument.
+1.  If the parameter has a default value, then that value will be used as argument.
 
 2.  Otherwise an error occurs.
 
