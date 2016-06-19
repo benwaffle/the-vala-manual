@@ -9,5 +9,5 @@
    * [Vala Syntax](vala_syntax.md)
    * [GType and GObject](gtype_and_gobject.md)
    * [Memory Management](memory_management.md)
-   * Vala Compilation
+   * [Vala Compilation](vala_compilation.md)
 
