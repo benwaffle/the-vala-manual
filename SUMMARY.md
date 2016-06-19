@@ -18,5 +18,6 @@
    * [References and ownership](references_and_ownership.md)
 * [Types](types.md)
    * [Value types](value_types.md)
+   * Reference types
 * [Expressions](expressions.md)
 
