@@ -17,11 +17,4 @@
    * [Object oriented programming](object_oriented_programming.md)
    * [References and ownership](references_and_ownership.md)
 * Expressions
-* [Types](types.md)
-   * [Value types](value_types.md)
-   * [Reference types](reference_types.md)
-   * [Parameterised types](parameterised_types.md)
-   * [Nullable types](nullable_types.md)
-   * [Pointer types](pointer_types.md)
-   * [Type conversions](type_conversions.md)
 
