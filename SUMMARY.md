@@ -19,6 +19,6 @@
 * [Types](types.md)
    * [Value types](value_types.md)
    * [Reference types](reference_types.md)
-   * Nullable types
    * [Parameterised types](parameterised_types.md)
+   * Nullable types
 
