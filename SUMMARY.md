@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
    * [License](COPYING.md)
+   * Authors
 * [Overview](overview.md)
    * [Getting Started](getting_started.md)
    * [Documentation Conventions](documentation_conventions.md)
