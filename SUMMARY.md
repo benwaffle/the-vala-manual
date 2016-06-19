@@ -10,4 +10,5 @@
    * [GType and GObject](gtype_and_gobject.md)
    * [Memory Management](memory_management.md)
    * [Vala Compilation](vala_compilation.md)
+   * Application Entry Point
 
