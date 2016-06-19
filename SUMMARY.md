@@ -21,6 +21,6 @@
    * [Reference types](reference_types.md)
    * [Parameterised types](parameterised_types.md)
    * [Nullable types](nullable_types.md)
-   * Pointer types
+   * [Pointer types](pointer_types.md)
 * [Expressions](expressions.md)
 
