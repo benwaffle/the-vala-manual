@@ -11,10 +11,10 @@
    * [Memory Management](memory_management.md)
    * [Vala Compilation](vala_compilation.md)
    * [Application Entry Point](application_entry_point.md)
-* [Types](types.md)
 * [Concepts](concepts.md)
    * [Variables, fields and parameters](variables_fields_and_parameters.md)
    * [Scope and naming](scope_and_naming.md)
    * [Object oriented programming](object_oriented_programming.md)
    * [References and ownership](references_and_ownership.md)
+* [Types](types.md)
 
