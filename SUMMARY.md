@@ -17,5 +17,5 @@
    * [Object oriented programming](object_oriented_programming.md)
    * [References and ownership](references_and_ownership.md)
 * [Expressions](expressions.md)
-* Types
+* [Types](types.md)
 
