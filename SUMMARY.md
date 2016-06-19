@@ -8,4 +8,5 @@
    * [Vala Conventions](vala_conventions.md)
    * [Vala Syntax](vala_syntax.md)
    * [GType and GObject](gtype_and_gobject.md)
+   * Memory Management
 
