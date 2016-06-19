@@ -1,9 +1,9 @@
 # Overview
 
-Vala is a programming language that aims to bring modern language features to GNOME developers without imposing any additional runtime requirements and without using a different ABI than applications and libraries written in C. It provides a concise way of using GLib and
-GObject features, but does not attempt to expose all possibilities. In particular, Vala is primarily a statically typed language - this is a design decision, not an oversight.
+Vala is a programming language that aims to bring modern language features to GNOME developers. It does this without imposing any extra runtime requirements or using a different ABI than applications and libraries written in C. It provides a concise way of using GLib and
+GObject features, but does not attempt to expose all possibilities. In particular, Vala is primarily a statically typed language by design.
 
-The syntax of Vala is similar to C#, modified to better fit the GObject type system. Vala supports modern language features as the following:
+The syntax of Vala is like C#, with some modifications to better fit the GObject type system. Vala supports modern language features as the following:
 
  * Interfaces
  * Properties
