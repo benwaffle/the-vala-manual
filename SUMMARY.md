@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Types
 * [Overview](overview.md)
    * [Getting Started](getting_started.md)
    * [Documentation Conventions](documentation_conventions.md)
