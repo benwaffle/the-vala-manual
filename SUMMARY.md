@@ -16,6 +16,6 @@
    * [Scope and naming](scope_and_naming.md)
    * [Object oriented programming](object_oriented_programming.md)
    * [References and ownership](references_and_ownership.md)
-* [Expressions](expressions.md)
 * [Types](types.md)
+* [Expressions](expressions.md)
 
