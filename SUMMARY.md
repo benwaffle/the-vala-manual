@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Concepts](concepts.md)
 * [Overview](overview.md)
    * [Getting Started](getting_started.md)
    * [Documentation Conventions](documentation_conventions.md)
@@ -12,4 +11,5 @@
    * [Memory Management](memory_management.md)
    * [Vala Compilation](vala_compilation.md)
    * [Application Entry Point](application_entry_point.md)
+* [Concepts](concepts.md)
 
