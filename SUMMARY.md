@@ -13,5 +13,5 @@
    * [Application Entry Point](application_entry_point.md)
 * [Concepts](concepts.md)
    * [Variables, fields and parameters](variables_fields_and_parameters.md)
-   * Scope and naming
+   * [Scope and naming](scope_and_naming.md)
 
