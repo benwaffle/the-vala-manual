@@ -18,6 +18,7 @@
    * [References and ownership](references_and_ownership.md)
 * [Types](types.md)
    * [Value types](value_types.md)
+       * Nullable types
    * [Reference types](reference_types.md)
    * [Parameterised types](parameterised_types.md)
 
