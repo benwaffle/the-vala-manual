@@ -19,6 +19,6 @@
 * [Types](types.md)
    * [Value types](value_types.md)
    * [Reference types](reference_types.md)
-   * Parameterised types
+   * [Parameterised types](parameterised_types.md)
 * [Expressions](expressions.md)
 
