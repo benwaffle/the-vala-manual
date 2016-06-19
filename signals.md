@@ -28,9 +28,7 @@ Signals
 
     -   identifier
 
-Signals may also provide an extra piece of information called a signal detail. This is a single string, which can be used as an initial hint as to the purpose of the signal emission. In Vala you can register that a signal handler should only be invoked when the signal detail matches a given string. A typical use of signal details is in GObject's own
-"notify" signal, which says that a property of an object has changed -
-GObject uses the detail string to say which property has been changed.
+Signals may also provide an extra piece of information called a signal detail. This is a single string, which can be used as an initial hint as to the purpose of the signal emission. In Vala you can register that a signal handler should only be invoked when the signal detail matches a given string. A typical use of signal details is in GObject's own "notify" signal, which says that a property of an object has changed - GObject uses the detail string to say which property has been changed.
 
 To assign a handler to a signal, (or register to receive this type of event from the instance), use the following form of expression:
 
@@ -58,11 +56,7 @@ To assign a handler to a signal, (or register to receive this type of event from
 This expression will request that the signal handler given be invoked whenever the signal is emitted. In order for such a connection expression to be legal, the handler must have the correct signature. The handler should be defined to accept as parameters the same types as the signal, but with an extra parameter before. This parameter should have the type of the class in which the signal is declared. When a signal is emitted all handlers are called with this parameter being the object by which the signal was emitted.
 
 The time that an arbtirary expression is acceptable in this expression is when that expression evaluates to an instance of a delegate type,
-i.e. to a method that is a legal handler for the signal. For details on delegates, see
-[Delegates](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Delegates#)
-. For details on lambda expressions see
-[Methods/Lambdas](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#Lambdas)
-.
+i.e. to a method that is a legal handler for the signal. For details on delegates, see [Delegates](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Delegates#). For details on lambda expressions see [Methods/Lambdas](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#Lambdas).
 
 Note that optional signal detail should be directly appended to the signal name, with no white space, e.g. `o.notify["name"] += ...`
 
