@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Expressions
 * [Overview](overview.md)
    * [Getting Started](getting_started.md)
    * [Documentation Conventions](documentation_conventions.md)
@@ -17,6 +16,7 @@
    * [Scope and naming](scope_and_naming.md)
    * [Object oriented programming](object_oriented_programming.md)
    * [References and ownership](references_and_ownership.md)
+* Expressions
 * [Types](types.md)
    * [Value types](value_types.md)
    * [Reference types](reference_types.md)
