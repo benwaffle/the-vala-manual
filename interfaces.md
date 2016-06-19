@@ -1,12 +1,11 @@
 # Interfaces
 
-An interface in Vala is a non-instantiable type. A class may implemen ny number of interfaces, thereby declaring that an instance of tha lass should also be considered an instance of those interfaces. Interfaces are part of the GType system, and so compact classes may no mplement interfaces (see [Classes/Types o lass](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Types_of_class).)
+An interface in Vala is a non-instantiable type. A class may implemen any number of interfaces, thereby declaring that an instance of tha lass should also be considered an instance of those interfaces. Interfaces are part of the GType system, and so compact classes may no mplement interfaces (see [Classes/Types o lass](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Types_of_class).)
 
 The simplest interface declaration looks like this:
 
 ```vala
 	interface InterfaceName {
-	
 	}
 ```
 
