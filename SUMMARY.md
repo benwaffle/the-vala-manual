@@ -5,5 +5,5 @@
    * [Getting Started](getting_started.md)
    * [Documentation Conventions](documentation_conventions.md)
    * [Vala Source Files](vala_source_files.md)
-   * Vala Conventions
+   * [Vala Conventions](vala_conventions.md)
 
