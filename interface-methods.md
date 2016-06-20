@@ -9,25 +9,17 @@ Vala interfaces may also define static methods. These are equivalent to static m
 
 -   interface-instance-method-declaration:
 
-    -   [ class-member-visibility-modifier ] return-type method-name
-        **(** [ params-list ] **)** method-contracts [ **throws**
-        exception-list ] **{** statement-list **}**
+    -   [ class-member-visibility-modifier ] return-type method-name **(** [ params-list ] **)** method-contracts [ **throws** exception-list ] **{** statement-list **}**
 
-    interface-instance-abstract-method-declaration:
 
-    -   [ class-member-visibility-modifier ] **abstract** return-type
-        method-name **(** [ params-list ] **)** method-contracts [
-        **throws** exception-list ] **;**
+-   interface-instance-abstract-method-declaration:
 
-    interface-static-method-declaration:
+    -   [ class-member-visibility-modifier ] **abstract** return-type method-name **(** [ params-list ] **)** method-contracts [**throws** exception-list ] **;**
 
-    -   [ class-member-visibility-modifier ] **static** return-type
-        method-name **(** [ params-list ] **)** method-contracts [
-        **throws** exception-list ] **{** statement-list **}**
 
-For discussion of methods in classes, see: [Classes/Class methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Class_methods)
-. For information about methods in general, see
-[Methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#)
-. Of particular note is that an abstract method of an interface defines a method that can always be called in an instance of an interface,
-because that instance is guaranteed to be of a non-abstract class that implements the interface's abstract methods.
+-   interface-static-method-declaration:
 
+    -   [ class-member-visibility-modifier ] **static** return-type method-name **(** [ params-list ] **)** method-contracts [**throws** exception-list ] **{** statement-list **}**
+
+
+For discussion of methods in classes, see: [Classes/Class methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Class_methods). For information about methods in general, see [Methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#). Of particular note is that an abstract method of an interface defines a method that can always be called in an instance of an interface, because that instance is guaranteed to be of a non-abstract class that implements the interface's abstract methods.
