@@ -12,11 +12,7 @@ Interfaces are not constructed, and so there is not concept of a construction pr
 
 -   interface-instance-property-declaration:
 
-    -   [ class-member-visibility-modifier ] [
-        class-method-type-modifier ] qualified-type-name property-name
-        **{** accessors [ default-value ] **}** **;**
+    -   [ class-member-visibility-modifier ] [ class-method-type-modifier ] qualified-type-name property-name **{** accessors [ default-value ] **}** **;**
 
-        [ class-member-visibility-modifier ] **abstract**
-        qualified-type-name property-name **{** automatic-accessors
-        **}** **;**
+    -   [ class-member-visibility-modifier ] **abstract** qualified-type-name property-name **{** automatic-accessors **}** **;**
 
