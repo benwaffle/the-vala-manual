@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * [License](COPYING.md)
    * [Authors](AUTHORS.md)
 * [Overview](overview.md)
    * [Getting Started](getting_started.md)
@@ -147,5 +146,6 @@
    * [Syntax](syntax.md)
    * [Valid arguments](valid-arguments.md)
    * [Examples](gir-examples.md)
+* [License](COPYING.md)
 * Appendices
 
