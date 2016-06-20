@@ -5,50 +5,53 @@ Interface declaration
 
 -   interface-declaration:
 
-    -   [ access-modifier ] **interface** qualified-interface-name [
-        inheritance-list ] **{** [ interface-members ] **}**
+    - [ access-modifier ] **interface** qualified-interface-name [inheritance-list ] **{** [ interface-members ] **}**
 
-    qualified-interface-name:
+
+-   qualified-interface-name:
 
     -   [ qualified-namespace-name **.** ] interface-name
 
-    interface-name:
+
+-   interface-name:
 
     -   identifier
 
-    inheritance-list:
+
+-   inheritance-list:
 
     -   **:** prerequisite-classes-and-interfaces
 
-    prerequisite-classes-and-interfaces:
 
-    -   qualified-class-name [ **,**
-        prerequisite-classes-and-interfaces]
+-   prerequisite-classes-and-interfaces:
 
-        qualified-interface-name [ **,**
-        prerequisite-classes-and-interfaces ]
+    -   qualified-class-name [ **,** prerequisite-classes-and-interfaces]
 
-    interface-members:
+    -   qualified-interface-name [ **,** prerequisite-classes-and-interfaces ]
+
+
+-   interface-members:
 
     -   interface-member [ interface-members ]
 
-    interface-member:
+
+-   interface-member:
 
     -   interface-constant-declaration
 
-        interface-delegate-declaration
+    -   interface-delegate-declaration
 
-        interface-enum-declaration
+    -   interface-enum-declaration
 
-        interface-instance-member
+    -   interface-instance-member
 
-        interface-static-member
+    -   interface-static-member
 
-        interface-inner-class-declaration
+    -   interface-inner-class-declaration
 
-        abstract-method-declaration
+    -   abstract-method-declaration
 
-    interface-instance-member:
+-   interface-instance-member:
 
     -   interface-instance-method-declaration
 
