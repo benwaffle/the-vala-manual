@@ -4,7 +4,7 @@ Vala is primarily an object oriented language. This documentation isn't going to
 
 A class in Vala is a definition of a potentially polymorphic type. A polymorphic type is one which can be viewed as more than one type. The basic method for this is inheritance, whereby one type can be defined as a specialized version of another. An instance of a subtype, descended from a particular supertype, has all the properties of the supertype, and can be used wherever an instance of the supertype is expected. This sort of relationship is described as a "subtype instance is-a supertype instance." See [Classes](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#).
 
-Vala provides inheritance functionality to any type of class (see [Classes/Types of class](types-of-class.md) ). Given the following definition, every SubType instance is-a SuperType instance:
+Vala provides inheritance functionality to any type of class (see [Classes/Types of class](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Types_of_class) ). Given the following definition, every SubType instance is-a SuperType instance:
 
 ```vala
 class SuperType {
