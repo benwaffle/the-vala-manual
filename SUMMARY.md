@@ -148,4 +148,5 @@
    * [Examples](gir-examples.md)
 * [License](COPYING.md)
 * Appendices
+   * 1. Licence
 
