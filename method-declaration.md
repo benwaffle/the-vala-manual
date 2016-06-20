@@ -33,23 +33,21 @@ The syntax for declaring a method changes slightly based on what sort of method 
 
     -   [ parameter-direction ] type identifier
 
-    parameter-direction:
+
+-      parameter-direction:
 
     -   **ref**
 
-        **out**
+    -   **out**
 
-    error-list:
+
+-   error-list:
 
     -   qualified-error-domain [ **,** error-list ]
 
-    method-contracts:
 
-    -   [ **requires** **(** expression **)** ] [ **ensures** **(**
-        expression **)** ]
+-   method-contracts:
 
-For more details see [Methods/Contract programming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#Contract_programming)
-, and
-[Errors](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Errors#)
-.
+    -   [ **requires** **(** expression **)** ] [ **ensures** **(**expression **)** ]
 
+For more details see [Methods/Contract programming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#Contract_programming), and [Errors](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Errors#).
