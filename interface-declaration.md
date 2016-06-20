@@ -55,15 +55,14 @@ Interface declaration
 
     -   interface-instance-method-declaration
 
-        interface-instance-abstract-method-declaration
+    -   interface-instance-abstract-method-declaration
 
-        interface-instance-property-declaration
+    -   interface-instance-property-declaration
 
-        interface-instance-signal-declaration
+    -   interface-instance-signal-declaration
 
-    interface-static-member:
+-   interface-static-member:
 
     -   interface-static-field-declaration
 
-        interface-static-method-declaration
-
+    -   interface-static-method-declaration
