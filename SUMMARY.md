@@ -146,6 +146,6 @@
    * [Syntax](syntax.md)
    * [Valid arguments](valid-arguments.md)
    * [Examples](gir-examples.md)
-* Appendices
 * [License](COPYING.md)
+* Appendices
 
