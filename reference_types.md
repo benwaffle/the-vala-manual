@@ -8,61 +8,61 @@ Instances of any reference type can be assigned a variable that is declared "wea
 
     -   classed-type
 
-        array-type
+    -   array-type
 
-        delegate-type
+    -   delegate-type
 
-        error-type
+    -   error-type
 
-        **string**
+    -   **string**
 
-    classed-type:
+-   classed-type:
 
     -   simple-classed-type
 
-        type-instance-classed-type
+    -   type-instance-classed-type
 
-        object-classed-type
+    -   object-classed-type
 
-    simple-classed-type:
+    - simple-classed-type:
 
     -   user-defined-simple-classed-type
 
-    type-instance-classed-type:
+-   type-instance-classed-type:
 
     -   user-defined-type-instance-classed-type
 
-    object-classed-type:
+-   object-classed-type:
 
     -   user-defined-object-classed-type
 
-    array-type:
+-   array-type:
 
     -   non-array-type **[]**
 
-        non-array-type **[** dimension-separators **]**
+    -   non-array-type **[** dimension-separators **]**
 
-    non-array-type:
+-   non-array-type:
 
     -   value-type
 
-        classed-type
+    -   classed-type
 
-        delegate-type
+    -   delegate-type
 
-        error-type
+    -   error-type
 
-    dimension-separators:
+-   dimension-separators:
 
     -   **,**
 
-        dimension-separators **,**
+    -   dimension-separators **,**
 
-    delegate-type:
+-   delegate-type:
 
     -   user-defined-delegate-type
 
-    error-type:
+-   error-type:
 
     -   user-defined-error-type
 
