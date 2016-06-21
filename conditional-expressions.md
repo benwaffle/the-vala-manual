@@ -7,18 +7,18 @@ Allow a conditional in a single expression.
 
 -   conditional-expression:
 
-    -   boolean-expression [ **?** conditional-true-clause **:**
-        conditional-false-clause ]
+    -   boolean-expression [ **?** conditional-true-clause **:** conditional-false-clause ]
 
-    boolean-expression:
+-   boolean-expression:
 
     -   coalescing-expression
 
-    conditional-true-clause:
+-   conditional-true-clause:
 
     -   expression
 
-    conditional-false-clause
+
+-   conditional-false-clause
 
     -   expression
 
