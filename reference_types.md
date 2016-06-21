@@ -1,6 +1,6 @@
 # Reference types
 
-Instances of reference types are always stored on the heap. Variables of reference types contain references to the instances, rather than the instances themselves. Assigning an instance of a reference type to a variable or field will not make a copy of the data, instead only the reference to the data is copied. This means that both variables will refer to the same data, and so changes made to that data using one of the references will be visible when using the other.
+Instances of reference types are always stored on the heap. Variables of reference types contain references to the instances, rather than the instances themselves. Assigning an instance of a reference type to a variable or field will not make a copy of the data, only a reference to it. This means that both variables will refer to the same data. Changes made to that data using one of the references will be visible when using the other.
 
 Instances of any reference type can be assigned a variable that is declared "weak". This implies that the variable must not be known to the type instance. A reference counted type does not increase its reference count after being assigned to a weak variable: a weak variable cannot take ownership of an instance.
 
