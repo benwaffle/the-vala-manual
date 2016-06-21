@@ -7,16 +7,16 @@ This expression will create an array of the given size. The second approach show
 
 -   array-instantiation-expression:
 
-    -   **new** type-name **[\*\* sizes \*\*]** [ **{** [ initializer ]
-        **}** ]
+    -   **new** type-name **[\*\* sizes \*\*]** [ **{** [ initializer ] **}** ]
 
-        **{** initializer **}**
+    -   **{** initializer **}**
 
-    sizes:
+-   sizes:
 
     -   expression [ **,** sizes ]
 
-    initializer:
+
+-   initializer:
 
     -   expression [ **,** initializer ]
 
