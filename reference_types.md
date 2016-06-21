@@ -70,10 +70,9 @@ Instances of any reference type can be assigned a variable that is declared "wea
 
 #### Classed types
 
-A class definition introduces a new reference type - this is the most common way of creating a new type in Vala. Classes are a very powerful mechanism, as they have features such as polymorphism and inheritance.
+A class definition introduces a new reference type - this is the most common way of creating a new type in Vala. Classes are very powerful, as they have features such as polymorphism and inheritance.
 
-Full discussion of classes is found at
-[Classes](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Projects/Vala/Manual/Classes#).
+A full discussion of classes can be found at [Classes](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Projects/Vala/Manual/Classes#).
 
 Most classed types in Vala are reference counted. This means that every time a classed type instance is assigned to a variable or field, not only is the reference copied, but the instance also records that another reference to it has been created. When a field or variable goes out of scope, the fact that a reference to the instance has been removed is also recorded. This means that a classed type instance can be automatically removed from memory when it is no longer needed. The only classed types that are not reference counted are compact classes..
 Memory management is discussed at [Overview/Memory management](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Projects/Vala/Manual/Overview#Memory_management)
