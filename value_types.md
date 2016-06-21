@@ -6,63 +6,63 @@ Instances of value types are stored directly in variables or fields that represe
 
     -   fundamental-struct-type
 
-        user-defined-struct-type
+    -   user-defined-struct-type
 
-        enumerated-type
+    -   enumerated-type
 
-    fundamental-struct-type:
+-   fundamental-struct-type:
 
     -   integral-type
 
-        floating-point-type
+    -   floating-point-type
 
-        **bool**
+    -   **bool**
 
-    integral-type:
+-   integral-type:
 
     -   **char**
 
-        **uchar**
+    -   **uchar**
 
-        **short**
+    -   **short**
 
-        **ushort**
+    -   **ushort**
 
-        **int**
+    -   **int**
 
-        **uint**
+    -   **uint**
 
-        **long**
+    -   **long**
 
-        **ulong**
+    -   **ulong**
 
-        **size\_t**
+    -   **size\_t**
 
-        **ssize\_t**
+    -   **ssize\_t**
 
-        **int8**
+    -   **int8**
 
-        **uint8**
+    -   **uint8**
 
-        **int16**
+    -   **int16**
 
-        **uint16**
+    -   **uint16**
 
-        **int32**
+    -   **int32**
 
-        **uint32**
+    -   **uint32**
 
-        **int64**
+    -   **int64**
 
-        **uint64**
+    -   **uint64**
 
-        **unichar**
+    -   **unichar**
 
-    floating-point-type:
+-   floating-point-type:
 
     -   **float**
 
-        **double**
+    -   **double**
 
 Where a literal is indicated, this means the actual type name of a built in struct type is given. The definition of these types is included in Vala, so these types are always available.
 
