@@ -15,7 +15,7 @@ Casting:
 
     -   **(!)** unary-expression
 
-        **(** type-name **)** unary-expression
+    -   **(** type-name **)** unary-expression
 
 A cast expression returns the instance created in the nested expression as an instance of the type described. If the nested expression evaluates to an instance of a type that is not also an instance of the given type,
 the expression is not valid. If you are not sure whether the cast is valid, instead use an "as" expression.
@@ -31,7 +31,7 @@ with the latter depending on the former. If the nested expression evaluates to a
 
     -   **sizeof (** type-name **)**
 
-    typeof-expression:
+-   typeof-expression:
 
     -   **typeof (** type-name **)**
 
