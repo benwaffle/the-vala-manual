@@ -7,11 +7,13 @@ Struct instantiation
 
     -   type-name **(** arguments **)** [ **{** initializer **}** ]
 
-    initializer:
+
+-   initializer:
 
     -   field-name **=** expression [ **,** initializer ]
 
-    arguments:
+
+-   arguments:
 
     -   expression [ **,** arguments ]
 
