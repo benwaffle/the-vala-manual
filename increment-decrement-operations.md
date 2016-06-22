@@ -7,27 +7,28 @@ Increment/decrement operations
 
     -   primary-expression **++**
 
-        primary-expression **--**
+    -   primary-expression **--**
 
     prefix-expression:
 
     -   **++** unary-expression
 
-        **--** unary-expression
+    -   **--** unary-expression
 
 Postfix and prefix expressions:
 
-              var postfix = i++;
-                       var prefix = --j;
-            
+```vala
+var postfix = i++;
+var prefix = --j;
+```     
 
 are equivalent to:
 
-              var postfix = i;
-                       i += 1;
-              
-              
-                       j -= 1;
-                       var prefix = j;
+```vala
+var postfix = i;
+i += 1;
+j -= 1;
+var prefix = j;
+```
             
 
