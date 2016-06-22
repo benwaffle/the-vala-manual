@@ -5,5 +5,4 @@ Memory is allocated and initialised by Vala when needed. The memory management s
 
 Vala also allows use of pointers in much the same way as C. An instance of a pointer type refers directly to an address in memory. Pointers are not references, and therefore the automatic memory management rules do not apply in the same way. See [Types/Pointer types](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Types#Pointer_types).
 
-There are more details about memory management elsewhere, see [Types](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Types#), see [Concepts](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#)
-.
+There are more details about memory management elsewhere, see [Types](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Types#), see [Concepts](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#).
