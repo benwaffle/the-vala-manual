@@ -5,9 +5,9 @@ A large amount of this documentation describes the language features precisely u
 
     -   **literalstring1**
 
-        **literalstring2** [ optional-section ]
+    -    **literalstring2** [ optional-section ]
 
-    optional-section:
+-   optional-section:
 
     -   **literalstring3**
 
@@ -19,8 +19,5 @@ Example code is shown as follows. Example code will always be valid Vala code, b
 class MyClass : Object {
 	int field = 1;
 }
-        
 ```
-
 Some phrases are used in a specific ways in this documentation and it is often useful to recognise their precise meanings: that is, to create a method, you write a declaration for it. When the program is running and the method exists, it is then defined as per your declaration and can be invoked.
-
