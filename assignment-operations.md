@@ -41,15 +41,14 @@ When assignment includes another operation natural result type must match the de
 
 A simple assignment expression assigns the right handed side value to the left handed side. It is necessary that the left handed side expression is a valid lvalue. Other assignments:
 
-              result += value;
-                       result <<= value;
-                       ...
-            
+```vala
+result += value;
+result <<= value;
+```
 
 Are equivalent to simple assignments:
-
-              result = result + value;
-                       result = result << value;
-                       ...
-            
+```vala
+result = result + value;
+result = result << value;
+```     
 
