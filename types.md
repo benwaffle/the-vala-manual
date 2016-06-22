@@ -21,14 +21,14 @@ Meta types are created automatically from other types, and so may have either re
 
     -   value-type
 
-        reference-type
+    -   reference-type
 
-        meta-type
+    -   meta-type
 
-    meta-type:
+-   meta-type:
 
     -   parameterised-type
 
-        nullable-type
+    -   nullable-type
 
-        pointer-type
+    -   pointer-type
