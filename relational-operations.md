@@ -12,23 +12,23 @@ they are lexically compared somehow.
 
     -   relational-expression
 
-        relational-expression **==** relational-expression
+    -   relational-expression **==** relational-expression
 
-        relational-expression **!=** relational-expression
+    -   relational-expression **!=** relational-expression
 
-    relational-expression:
+-   relational-expression:
 
     -   shift-expression
 
-        shift-expression **\<** relational-expression
+    -   shift-expression **\<** relational-expression
 
-        shift-expression **\<=** relational-expression
+    -   shift-expression **\<=** relational-expression
 
-        shift-expression **\>** relational-expression
+    -   shift-expression **\>** relational-expression
 
-        shift-expression **\>=** relational-expression
+    -   shift-expression **\>=** relational-expression
 
-        is-expression
+    -   is-expression
 
-        as-expression
+    -   as-expression
 
