@@ -21,23 +21,23 @@ When assignment includes another operation natural result type must match the de
 
     -   conditional-expression **+=** expression
 
-        conditional-expression **-=** expression
+    -   conditional-expression **-=** expression
 
-        conditional-expression **\*=** expression
+    -   conditional-expression **\*=** expression
 
-        conditional-expression **/=** expression
+    -   conditional-expression **/=** expression
 
-        conditional-expression **%=** expression
+    -   conditional-expression **%=** expression
 
-        conditional-expression **|=** expression
+    -   conditional-expression **|=** expression
 
-        conditional-expression **&=** expression
+    -   conditional-expression **&=** expression
 
-        conditional-expression **\^=** expression
+    -   conditional-expression **\^=** expression
 
-        conditional-expression **\<\<=** expression
+    -   conditional-expression **\<\<=** expression
 
-        conditional-expression **\>\>=** expression
+    -   conditional-expression **\>\>=** expression
 
 A simple assignment expression assigns the right handed side value to the left handed side. It is necessary that the left handed side expression is a valid lvalue. Other assignments:
 
