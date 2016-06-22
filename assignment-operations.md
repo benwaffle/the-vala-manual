@@ -11,13 +11,13 @@ When assignment includes another operation natural result type must match the de
 
     -   simple-assignment-expression
 
-        number-assignment-expression
+    -   number-assignment-expression
 
-    simple-assignment-expression:
+-   simple-assignment-expression:
 
     -   conditional-expression **=** expression
 
-    number-assignment-expression:
+-   number-assignment-expression:
 
     -   conditional-expression **+=** expression
 
