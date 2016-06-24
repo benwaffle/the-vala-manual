@@ -1,4 +1,4 @@
-# Vala Syntax
+# Vala syntax
 
 Vala's syntax is modelled on C\#'s, and is therefore similar to all C-like languages. Curly braces are the basic delimeter, marking the start and end of a declaration or block of code.
 
