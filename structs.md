@@ -10,13 +10,10 @@ struct StructName {
   int some_field;
 }
 ```
-
 A struct must have at least one field, except in either one of the following cases:
 
 -   It's external
-
--   It has either one of `[BooleanType]` , `[IntegerType]` or `[FloatingType]` attributes
-
+-   It has either one of `[BooleanType]`, `[IntegerType]` or `[FloatingType]` attributes
 -   It inherits from another struct
 
 
