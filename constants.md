@@ -10,7 +10,7 @@ Constants are similar to variables but can only be assigned to once. It is there
     -   [ access-modifier ] **const** qualified-type-name constant-name
         **=** expression ;
 
-    constant-name:
+-   constant-name:
 
     -   identifier
 
