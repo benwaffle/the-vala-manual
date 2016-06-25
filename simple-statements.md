@@ -10,7 +10,7 @@ and so can be used wherever a statement is required.
 
     -   **;**
 
-A Simple Statement consists of one a subset of expressions that are considered free-standing. Not all expressions are allowed, only those that potentially have a useful side effect - for example, arithmetic expressions cannot form simple statements on their own, but are allowed as part of an assignement expressions, which has a useful side effect.
+A Simple Statement consists of one a subset of expressions that are considered free-standing. Not all expressions are allowed, only those that potentially have a useful side effect - for example, arithmetic expressions cannot form simple statements on their own, but are allowed as part of an assignment expressions, which has a useful side effect.
 
 -   simple-statement:
 
@@ -20,11 +20,11 @@ A Simple Statement consists of one a subset of expressions that are considered f
 
     -   assigment-expression
 
-        class-instantiation-expression
+    -   class-instantiation-expression
 
-        struct instantiation-expression
+    -   struct instantiation-expression
 
-        invocation-expression
+    -   invocation-expression
 
 A Statement Block allows several statements to be used in a context that would otherwise only allow one.
 
