@@ -1,8 +1,6 @@
 Examples
 ========
 
-Demonstrating...
-
 ```vala
 
 errordomain ErrorType1 {
