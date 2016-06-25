@@ -40,14 +40,13 @@ To assign a handler to a signal, (or register to receive this type of event from
 
     -   expression
 
-        qualified-method-name
+    -   qualified-method-name
 
-        lambda-expression
+    -   lambda-expression
 
 This expression will request that the signal handler given be invoked whenever the signal is emitted. In order for such a connection expression to be legal, the handler must have the correct signature. The handler should be defined to accept as parameters the same types as the signal, but with an extra parameter before. This parameter should have the type of the class in which the signal is declared. When a signal is emitted all handlers are called with this parameter being the object by which the signal was emitted.
 
-The time that an arbtirary expression is acceptable in this expression is when that expression evaluates to an instance of a delegate type,
-i.e. to a method that is a legal handler for the signal. For details on delegates, see [Delegates](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Delegates#). For details on lambda expressions see [Methods/Lambdas](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#Lambdas).
+The time that an arbtirary expression is acceptable in this expression is when that expression evaluates to an instance of a delegate type, i.e. to a method that is a legal handler for the signal. For details on delegates, see [Delegates](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Delegates#). For details on lambda expressions see [Methods/Lambdas](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#Lambdas).
 
 Note that optional signal detail should be directly appended to the signal name, with no white space, e.g. `o.notify["name"] += ...`
 
@@ -55,14 +54,13 @@ It is also possible to disconnect a signal handler using the following expressio
 
 -   signal-disconnection-expression:
 
-    -   qualified-signal-name [ signal-detail ] **-=**
-        connected-signal-handler
+    -   qualified-signal-name [ signal-detail ] **-=** connected-signal-handler
 
-    connected-signal-handler:
+
+-   connected-signal-handler:
 
     -   expression
 
-        qualified-method-name
+    -   qualified-method-name
 
 Note that you cannot disconnect a signal handler which was defined inline as a lambda expression and then immediately connected to the signal. If this is the effect you really need to achieve, you must assign the lambda expression to an identifier first, so that the lambda can be referred to again at a later time.
-
