@@ -87,10 +87,10 @@
    * [Class fields](class-fields.md)
    * [Class constants](class_constants.md)
    * [Class methods](class-methods.md)
+   * Properties
    * [Class enums](class-enums.md)
    * [Class delegates](class-delegates.md)
    * [Examples](class-examples.md)
-   * Properties
 * [Signals](signals.md)
 * [Interfaces](interfaces.md)
    * [Interface declaration](interface-declaration.md)
