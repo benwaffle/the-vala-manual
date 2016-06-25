@@ -7,7 +7,8 @@ Invocation expressions
 
     -   [ **yield** ] primary-expression **(** [ arguments ] **)**
 
-    arguments:
+
+-   arguments:
 
     -   expression [ **,** arguments]
 
