@@ -17,24 +17,26 @@ Signals are a system allowing a classed-type instance to emit events which can b
 
     -   identifier
 
-Signals may also provide an extra piece of information called a signal detail. This is a single string, which can be used as an initial hint as to the purpose of the signal emission. In Vala you can register that a signal handler should only be invoked when the signal detail matches a given string. A typical use of signal details is in GObject's own "notify" signal, which says that a property of an object has changed - GObject uses the detail string to say which property has been changed.
+Signals may also provide an extra piece of information called a signal detail. This is a single string, which can be used as an initial hint as to the purpose of the signal emission. In Vala you can register that a signal handler should only be invoked when the signal detail matches a given string.
+
+A typical use of signal details is in GObject's own "notify" signal, which says that a property of an object has changed - GObject uses the detail string to say which property has been changed.
 
 To assign a handler to a signal, (or register to receive this type of event from the instance), use the following form of expression:
 
 -   signal-connection-expression:
 
-    -   qualified-signal-name [ signal-detail ] **+=** signal-handler
+    -   [Deprecated] qualified-signal-name [ signal-detail ] **+=** signal-handler
 
-    qualified-signal-name:
+-   qualified-signal-name:
 
-    -   [ qualified-namespace-name **.** ] variable-identifier **.**
-        signal-name
+    -   [ qualified-namespace-name **.** ] variable-identifier **.** signal-name
 
-    signal-detail:
+
+-   signal-detail:
 
     -   **[\*\* expression \*\*]**
 
-    signal-handler:
+-   signal-handler:
 
     -   expression
 
