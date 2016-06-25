@@ -8,7 +8,7 @@ When a class is instantiated, data might be required from the user to set initia
 ```vala
 class ClassName : GLib.Object {
 
-  public ClassName (){}
+  public ClassName () {}
 
   public ClassName.with_some_quality (Property1Type property1value) {
     this.property1 = property1value;
