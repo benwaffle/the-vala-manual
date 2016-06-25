@@ -3,8 +3,7 @@
 Signal Attribute
 ================
 
-This attribute influences the generation and usage of object signals,
-mostly for the GObject type system. The default is G\_SIGNAL\_RUN\_LAST.
+This attribute influences the generation and usage of object signals, mostly for the GObject type system. The default is G\_SIGNAL\_RUN\_LAST.
 
   ------------------------------------ ------------------------------------
   **Name**                             **Type**
