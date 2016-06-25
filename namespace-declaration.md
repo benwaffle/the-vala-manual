@@ -17,6 +17,7 @@ Namespace declaration
 
     -   identifier
 
+
 -   namespace-members:
 
     -   namespace-member [ namespace-members ]
