@@ -87,7 +87,7 @@
    * [Class fields](class-fields.md)
    * [Class constants](class_constants.md)
    * [Class methods](class-methods.md)
-   * Properties
+   * [Properties](properties.md)
    * [Class enums](class-enums.md)
    * [Class delegates](class-delegates.md)
    * [Examples](class-examples.md)
