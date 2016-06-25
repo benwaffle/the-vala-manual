@@ -55,7 +55,7 @@ The for statement first evaluates a sequence of initialization expressions, then
 
     -   expression-list
 
-The foreach statement enumerates the elements of a collection, executing an embedded statement for each element of the collection. Each element in turn is assigned to a variable with the given identifier and the embedded statement is executed. Executing this type of statement creates a new transient scope in which the variable representing the collection element exists.
+The foreach statement enumerates the elements of a collection, executing an embedded statement for each element. Each element in turn is assigned to a variable with the given identifier and the embedded statement is executed. Executing this type of statement creates a new transient scope in which the variable representing the collection element exists.
 
 -   foreach-statement:
 
