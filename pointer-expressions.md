@@ -13,11 +13,12 @@ The "address of" expression evaluates to a pointer to the inner expression. Vali
 
 -   Element access whose container is an array or a pointer
 
-    pointer-indirection-expression:
+
+-   pointer-indirection-expression:
 
     -   **\*** unary-expression
 
-The pointer indirection evaluates to the value pointed to by the inner expression. The inner expression must be a valid pointer type and it must not be a pointer to a reference type (for example pointer indirection to a type `SomeClass*` is not possible).
+The pointer indirection evaluates to the value pointed to by the inner expression. The inner expression must be a valid pointer type and it must not be a pointer to a reference type. Pointer indirection to a type `SomeClass*` is not possible, for example.
 
 -   pointer-member-access-expression:
 
