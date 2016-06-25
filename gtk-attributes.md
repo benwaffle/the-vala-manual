@@ -5,8 +5,7 @@ Gtk attributes
 
 **GtkTemplate attribute**
 
-Can only be applied to classes that inherit from Gtk.Widget. The "ui"
-argument is mandatory.
+Can only be applied to classes that inherit from Gtk.Widget. The "ui" argument is mandatory.
 
   ------------------------ ------------------------ ------------------------
   **Name**                 **Type**                 **Example**
