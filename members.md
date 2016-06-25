@@ -9,17 +9,7 @@ Namespaces members exist in the namespace's scope. They fall into two broad cate
 
     -   **public**
 
-        **private**
+    -   **private**
 
-For the types of namespace members that are not described on this page:
-see
-[Classes](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#)
-,
-[Structs](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Structs#)
-,
-[Delegates](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Delegates#)
-, [Enumerated types
-(Enums)](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Enumerated%20types%20%28Enums%29#)
-, and [Enumerated types (Enums)/Error domains](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Enumerated%20types%20%28Enums%29#Error_domains)
-.
+For the types of namespace members that are not described on this page see [Classes] (http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#), [Structs](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Structs#),[Delegates](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Delegates#),[Enumerated types(Enums)](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Enumerated%20types%20%28Enums%29#), and [Enumerated types (Enums)/Error domains](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Enumerated%20types%20%28Enums%29#Error_domains).
 
