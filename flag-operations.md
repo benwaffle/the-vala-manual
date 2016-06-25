@@ -3,7 +3,7 @@
 Flag operations
 ===============
 
-Flag types are a variation on enumerated types, in which any number of flag values can be combined in a single instance of the flag type. There are therefore operations available to combine several values in an instance, and to find out which values are represented in an instance.
+Flag types are a variation on enumerated types, in which any number of flag values can be combined in a single instance. There are operations available to combine several values in an instance, and to find out which values are represented.
 
 -   flag-combination-expression:
 
@@ -28,4 +28,3 @@ Where both expressions evaluate to instances of the same flag type, the result o
     -   expression **in** expression
 
 Where both expressions evaluate to instances of the same flag type, the result of this expression is a boolean. The result will be true if the left-handed flag is set into the right-handed flags.
-
