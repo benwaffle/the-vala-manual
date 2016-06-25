@@ -30,56 +30,34 @@ The `static` modifier is applicable to methods also. A static method is independ
 
     -   **override**
 
-Methods can be virtual, as described in [Concepts/Object oriented programming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Object_oriented_programming)
-. Methods in Vala classes are not virtual automatically, instead the
-"virtual" modifier must be used when it is needed. Virtual methods will only chain up if overridden using the override keyword.
 
-Vala classes may also define abstract methods, by writing the declaration with the "abstract" modifier and replacing the method body with an empty statement ";". Abstract methods are not true methods, as they do not have an associated statement block, and so cannot be invoked. Abstract methods can only exist in abstract classes, and must be overridden in derived classes. For this reason an abstract method is always virtual. The purpose of an abstract method is to define methods that all non-abstract subclasses of the current definition must implement, it is therefore always allowable to invoke the method on an instance of the abstract class, because it is required that that instance must in fact be of a non-abstract subclass.
+Methods can be virtual, as described in [Concepts/Object oriented programming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Object_oriented_programming). Methods in Vala classes are not virtual automatically, instead the "virtual" modifier must be used when it is needed. Virtual methods will only chain up if overridden using the override keyword.
+
+Vala classes may also define abstract methods, by writing the declaration with the "abstract" modifier and replacing the method body with an empty statement ";". Abstract methods are not true methods, as they do not have an associated statement block, and so cannot be invoked. Abstract methods can only exist in abstract classes, and must be overridden in derived classes. For this reason an abstract method is always virtual.
+
+The purpose of an abstract method is to define methods that all non-abstract subclasses of the current definition must implement, it is therefore always allowable to invoke the method on an instance of the abstract class, because it is required that that instance must in fact be of a non-abstract subclass.
 
 -   class-instance-abstract-method-declaration:
 
-    -   [ class-member-visibility-modifier ] **abstract** return-type
-        method-name **(** [ params-list ] **)** method-contracts [
-        **throws** exception-list ] **;**
+    -   [ class-member-visibility-modifier ] **abstract** return-type method-name **(** [ params-list ] **)** method-contracts [ **throws** exception-list ] **;**
 
 > **Note**
 >
-> -   **Note**
->
->     *Virtual methods are not available to compact classes.*
->
-> Properties
-> ==========
+> *Virtual methods are not available to compact classes.*
+
+Properties
+==========
+
+> **Note**
+> 
+> Class and static properties are not yet supported.
+
 
 > **Note**
 >
-> -   **Development Note:**
->
->     *Class and static properties are not yet supported in current Vala
->     releases.*
->
-> **Note**
->
-> -   **Note**
->
->     *Fully managed properties are only available to GObject derived
->     classes - these are properties that can be set dynamically (by
->     providing the property name at runtime) and can have attached
->     metadata, as is often used in the GTK+ and GNOME libraries. The
->     other class types can have unmanaged properties, which appear
->     similar when using Vala, but are actually implemented using simple
->     methods.*
->
-> Properties are an enhanced version of fields. They allow custom code
-> to be called whenever the property is retrieved or assigned to, but
-> may be treated as fields by external Vala code. Properties also
-> function like methods to some extent, and so can be defined as virtual
-> and overridden in subclasses. Since they are also allowed in
-> interfaces, they allow interfaces to declare data members that
-> implementing classes must expose (see
-> [Interfaces](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Interfaces#)
-> .)
+> Fully managed properties are only available to GObject derived classes - these are properties that can be set dynamically (by providing the property name at runtime) and can have attached metadata, as is often used in the GTK+ and GNOME libraries. The other class types can have unmanaged properties, which appear similar when using Vala, but are actually implemented using simple methods.
 
+Properties are an enhanced version of fields. They allow custom code to be called whenever the property is retrieved or assigned to, but may be treated as fields by external Vala code. Properties also function like methods to some extent, and so can be defined as virtual and overridden in subclasses. Since they are also allowed in interfaces, they allow interfaces to declare data members that implementing classes must expose (see [Interfaces](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Interfaces#).)
 
 
 Declaration
