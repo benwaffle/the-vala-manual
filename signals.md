@@ -4,27 +4,16 @@ Signals
 =======
 
 > **Note**
->
-> -   **Note**
->
->     *Signals are only available to GObject derived classes.*
->
-> Signals are a system allowing a classed-type instance to emit events
-> which can be recieved by arbitrary listeners. Receiving these events
-> is achieved by connecting the signal to a handler, for which Vala has
-> a specific syntax. Signals are integrated with the GLib
-> [MainLoop](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/MainLoop#)
-> system, which provides a system for queueing events (i.e. signal
-> emissions,) when needed - though this capability is not needed
-> non-threaded applications.
+> Signals are only available to GObject derived classes.
+
+Signals are a system allowing a classed-type instance to emit events which can be recieved by arbitrary listeners. Receiving these events is achieved by connecting the signal to a handler, for which Vala has a specific syntax. Signals are integrated with the GLib [MainLoop](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/MainLoop#) system, which provides a system for queueing events (i.e. signal emissions,) when needed - though this capability is not needed in non-threaded applications.
 
 -   class-instance-signal-declaration:
 
-    -   [ class-member-visibility-modifier ] [
-        class-method-type-modifier ] **signal** return-type signal-name
-        **(** [ params-list ] **)** **;**
+    -   [ class-member-visibility-modifier ] [ class-method-type-modifier ] **signal** return-type signal-name **(** [ params-list ] **)** **;**
 
-    signal-name:
+
+-   signal-name:
 
     -   identifier
 
