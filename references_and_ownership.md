@@ -1,14 +1,8 @@
 # References and ownership
 
-Type instances in Vala are automatically managed to a large degree. This means that memory is allocated to store the data, and then deallocated when the data is no longer required. However, Vala does not have a runtime garbage collector, instead it applies rules at compile time that will predictably deallocate memory at runtime.
+Type instances in Vala are automatically managed to a large degree. This means that memory is allocated to store the data, and then deallocated when it is no longer required. Vala does not have a runtime garbage collector, instead it applies rules at compile time that will predictably deallocate memory at runtime.
 
-A central concept of Vala's memory management system is ownership. An instance is considered still in use as long as there is at least one way of accessing it, i.e. there is some field, variable or parameter that refers to the instance - one such identifier will be considered the instance's owner, and therefore the instance's memory will not be deallocated. When there is no longer any way to access the data instance, it is considered unowned, and its memory will be deallocated.
-
-### References and ownership
-
-Type instances in Vala are automatically managed to a large degree. This means that memory is allocated to store the data, and then deallocated when the data is no longer required. However, Vala does not have a runtime garbage collector, instead it applies rules at compile time that will predictably deallocate memory at runtime.
-
-A central concept of Vala's memory management system is ownership. An instance is considered still in use as long as there is at least one way of accessing it, i.e. there is some field, variable or parameter that refers to the instance - one such identifier will be considered the instance's owner, and therefore the instance's memory will not be deallocated. When there is no longer any way to access the data instance, it is considered unowned, and its memory will be deallocated.
+A central concept of Vala's memory management system is ownership. An instance is considered still in use as long as there is at least one way of accessing it, i.e. there is some field, variable or parameter that refers to the instance. One such identifier will be considered the instance's owner, and therefore the instance's memory will not be deallocated. When there is no longer any way to access the data instance, it is considered unowned, and its memory will be deallocated.
 
 #### Value types
 
