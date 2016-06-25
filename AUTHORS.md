@@ -1,9 +1,11 @@
 
 ## Authors
-Jürg Billeter <j@bitron.ch>
+[Jürg Billeter](j@bitron.ch)
 
-Raffaele Sandrini <raffaele@sandrini.ch>
+[Raffaele Sandrini](raffaele@sandrini.ch)
 
-Luca Bruno
+[Luca Bruno]()
 
-Chris Daley <chebizarro@gmail.com>
+[Chris Daley](chebizarro@gmail.com)
+
+And many others...
