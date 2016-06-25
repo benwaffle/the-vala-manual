@@ -9,34 +9,32 @@ Statements define the path of execution within methods and similar constructions
 
     -   empty-statement
 
-        simple-statement
+    -   simple-statement
 
-        statement-block
+    -   statement-block
 
-        variable-declaration-statement
+    -   variable-declaration-statement
 
-        if-statement
+    -   if-statement
 
-        switch-statement
+    -   switch-statement
 
-        while-statement
+    -   while-statement
 
-        do-statement
+    -   do-statement
 
-        for-statement
+    -   for-statement
 
-        foreach-statement
+    -   foreach-statement
 
-        return-statement
+    -   return-statement
 
-        throw-statement
+    -   throw-statement
 
-        try-statement
+    -   try-statement
 
-        lock-statement
+    -   lock-statement
 
-    embedded-statement:
+-   embedded-statement:
 
     -   statement
-
-
