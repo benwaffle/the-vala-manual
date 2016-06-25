@@ -114,7 +114,7 @@
    * [Flag types](flag-types.md)
    * [Error domains](error-domains.md)
    * [Examples](enum-examples.md)
-   * Methods
+   * [Methods](enum-methods.md)
 * [Attributes](attributes.md)
    * [Applying attributes](applying-attributes.md)
    * [CCode Attribute](c-code-attribute.md)
