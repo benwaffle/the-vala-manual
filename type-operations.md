@@ -7,7 +7,7 @@ Type operations
 
     -   shift-expression **is** type-name
 
-Performs a runtime type check on the instance resulting from evaluating the the nested expression. If the instance is an instance of the type described (with, for example, a class or interface name,) the overall expression evaluates to true.
+Performs a runtime type check on the instance resulting from evaluating the nested expression. If the instance is an instance of the type described (for example, a class or interface) the overall expression evaluates to true.
 
 Casting:
 
