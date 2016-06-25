@@ -14,38 +14,43 @@ identified by names given in declaration, e.g. T.
 
     -   qualified-class-name-with-generic
 
-        qualified-interface-name-with-generic
+    -   qualified-interface-name-with-generic
 
-        qualified-struct-name-with-generic
+    -   qualified-struct-name-with-generic
 
-    qualified-class-name-with-generic:
+
+-   qualified-class-name-with-generic:
 
     -   [ qualified-namespace-name **.** ] class-name type-parameters
 
-    qualified-interface-name-with-generic:
 
-    -   [ qualified-namespace-name **.** ] interface-name
-        type-parameters
+-   qualified-interface-name-with-generic:
 
-    qualified-struct-name-with-generic:
+    -   [ qualified-namespace-name **.** ] interface-name type-parameters
+
+
+-   qualified-struct-name-with-generic:
 
     -   [ qualified-namespace-name **.** ] struct-name type-parameters
 
-    type-parameters:
 
-    -   **\<** generic-clause **\>**
+-   type-parameters:
 
-    generic-clause:
+    -   **<** generic-clause **\>**
+
+
+-   generic-clause:
 
     -   type-identifier [ **,** generic-clause ]
 
-        qualified-type-name [ **,** generic-clause ]
+    -   qualified-type-name [ **,** generic-clause ]
 
-    type-identifier:
+
+-   type-identifier:
 
     -   identifier
 
 type-identifier will be the type-name for the parameterised type.
 
-Deal is: in the class/interface/struct sections, replace qualified-\*-name with qualified-\*-name-with-generic.
+In the class/interface/struct sections, replace qualified-\*-name with qualified-\*-name-with-generic.
 
