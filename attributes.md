@@ -14,11 +14,8 @@ Attributes provide extra information in order to:
 Most of these attributes are only useful within bindings. Some, however,
 are useful in normal code:
 
--   `[DBus]` , `[Description]` , `[Deprecated]` , `[Signal]` ,
-    `[ModuleInit]` (if you're writing a module).
+-   `[DBus]` , `[Description]` , `[Deprecated]` , `[Signal]` , `[ModuleInit]` (if you're writing a module).
 
 -   `CCode` 's `instance_pos` (if you're using `Gtk.Builder` 's signal auto-connection functionality).
-
--   `[ThreadLocal]` (if you're using the Dova profile).
 
 
