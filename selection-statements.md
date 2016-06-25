@@ -34,6 +34,7 @@ The switch statement decides which of a set of statements to execute based on th
 
     -   **switch** **(** expression **)** **{** [ case-clauses ] [ default-clause ] **}**
 
+
 -   case-clauses:
 
     -   case-clause
