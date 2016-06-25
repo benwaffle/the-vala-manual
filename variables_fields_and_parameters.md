@@ -40,7 +40,7 @@ For more details about fields, see [Namespaces](http://wiki.gnome.org/action/sho
 
 #### Parameters
 
-Instances passed to methods are accessible within that method with names given in the method's parameter list.
+Instances passed to methods are accessible with the names given in its parameter list.
 
 They act like variables, except that they cannot, by default, take ownership of the first instance that is assigned to them, i.e. the instance passed to the method. This behaviour can be changed using explicit ownership transfer. When reassigning to a parameter, the result depends on the parameter direction. Assuming the parameter has no direction modifier, it will subsequently act exactly as a variable.
 
