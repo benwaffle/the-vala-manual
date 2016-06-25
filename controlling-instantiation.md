@@ -5,42 +5,15 @@ Controlling instantiation
 
 When a class is instantiated, data might be required from the user to set initial properties. To define which properties should be or can be set at this stage, the class declaration should be written as:
 
-``` {.vala}
-          class
-           
-          ClassName
-           : 
-          GLib
-          .
-          Object
-           {
-                  
-          public
-           
-          ClassName
-          () {
-                  }
-                  
-          public
-           
-          ClassName
-          .
-          with_some_quality
-           (
-          Property1Type
-           
-          property1value
-          ) {
-                 
-          this
-          .
-          property1
-           = 
-          property1value
-          ;
-                  }
-          }
-        
+```vala
+class ClassName : GLib.Object {
+
+  public ClassName (){}
+
+  public ClassName.with_some_quality (Property1Type property1value) {
+    this.property1 = property1value;
+  }
+}
 ```
 
 This example allows the
