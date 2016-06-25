@@ -28,7 +28,7 @@ Documentation
 
 -   shift-expression:
 
-    -   additive-expression **\<\<** additive-expression
+    -   additive-expression **<<** additive-expression
 
     -   additive-expression **\>\>** additive-expression
 
