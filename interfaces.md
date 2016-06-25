@@ -5,9 +5,8 @@ An interface in Vala is a non-instantiable type. A class may implement any numbe
 The simplest interface declaration looks like this:
 
 ```vala
-	interface InterfaceName {
-	
-	}
+interface InterfaceName {
+}
 ```
 
 Unlike C\# or Java, Vala's interfaces may include implemented methods, and so provide premade functionality to an implementing class, similar to mixins in other languages. All methods defined in a Vala interface are automatically considered to be virtual. Interfaces in Vala may also have prerequisites - classes or other interfaces that implementing classes must inherit from or implement. This is a more general form of the interface inheritence found in other languages. It should be noted that if you want to guarantee that all implementors of an interface are GObject type classes, you should give that class as a prerequisite for the interface.
