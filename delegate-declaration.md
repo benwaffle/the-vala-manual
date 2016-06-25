@@ -10,29 +10,24 @@ interface delegates, etc.
 
     -   instance-delegate-declaration
 
-        static-delegate-declaration
+    -   static-delegate-declaration
 
-    instance-delegate-declaration:
+-   instance-delegate-declaration:
 
-    -   [ access-modifier ] **delegate** return-type
-        qualified-delegate-name **(** method-params-list **)** [
-        **throws** error-list ] **;**
+    -   [ access-modifier ] **delegate** return-type qualified-delegate-name **(** method-params-list **)** [ **throws** error-list ] **;**
 
-    static-delegate-declaration:
 
-    -   [ access-modifier ] **static** **delegate** return-type
-        qualified-delegate-name **(** method-params-list **)** [
-        **throws** error-list ] **;**
+-   static-delegate-declaration:
 
-    qualified-delegate-name:
+    -   [ access-modifier ] **static** **delegate** return-type qualified-delegate-name **(** method-params-list **)** [ **throws** error-list ] **;**
+
+-   qualified-delegate-name:
 
     -   [ qualified-namespace-name **.** ] delegate-name
 
-    delegate-name:
+-   delegate-name:
 
     -   identifier
 
-Parts of this syntax are based on the respective sections of the method decleration syntax (see
-[Methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#)
-for details).
-
+Parts of this syntax are based on the respective sections of the method declaration syntax (see
+[Methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#) for details).
