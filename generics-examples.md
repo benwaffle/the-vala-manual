@@ -1,8 +1,5 @@
 Examples
 ========
-
-Demonstrating...
-
 ```vala
 public interface With < T > {
 
