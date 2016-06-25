@@ -36,6 +36,7 @@ This example allows the [ClassName](http://wiki.gnome.org/action/show/Projects/V
     -   this **.** property-name **=** param-name **;**
 
 class-name must be the same as the name of the class. If a creation method is given an extra name, this name is also used with instantiating the class, using the same syntax as for declaring the method, e.g.
+
 `var a = new Button.with_label ("text")` .
 
 If the property being set is construct type then assignment is made before construction, else afterwards.
@@ -44,26 +45,9 @@ Any number of these are allowed, but only one with each name (including null nam
 
 > **Note**
 >
-> -   **Note:**
->
->     *For a GObject derived class, only properties may be set at this
->     stage in construction, no other processing can be done at this
->     time.*
->
-> Construction
-> ============
+> For a GObject derived class, only properties may be set at this stage in construction, no other processing can be done at this time.
 
-> **Note**
->
-> -   **Note:**
->
->     *Construction only follows this process in GObject derived
->     classes.*
->
-> During instantiaion, after construction properties have been set, a
-> series of blocks of code are executed. This is the process that
-> prepares the instance for use. There are three types of `construct`
-> blocks that a class may define:
+During instantiaion, after construction properties have been set, a series of blocks of code are executed. This is the process that prepares the instance for use. There are three types of `construct`blocks that a class may define:
 
 -   class-instance-constructor-declaration:
 
