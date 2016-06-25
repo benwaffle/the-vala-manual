@@ -5,18 +5,10 @@ A struct is a data type that can contain fields, constants, and methods.
 
 The simplest struct declaration looks like this:
 
-``` {.vala}
-        struct
-         
-        StructName
-         {
-            
-        int
-         
-        some_field
-        ;
-        }
-      
+```vala
+struct StructName {
+  int some_field;
+}
 ```
 
 A struct must have at least one field, except in either one of the following cases:
