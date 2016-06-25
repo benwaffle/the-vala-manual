@@ -11,9 +11,6 @@ FIXME: Haven't actually written anything here about resource control.
 
     -   **lock** **(** identifier **)** embedded-statement
 
-Back to [Vala Reference Manual](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual#)
-
-
 
 Namespaces
 ----------
