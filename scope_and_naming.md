@@ -7,10 +7,9 @@ void main() {
 	int a = 5;
 	int b = a + 1;
 }
-        
 ```
 
-Scopes in Vala are introduced in various different ways.
+Scopes in Vala are introduced in various ways.
 
 -   Named scopes can be created directly with declarations like namespaces. These are always in existence when the program is running, and can be referred to by their name.
 
