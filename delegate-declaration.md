@@ -21,9 +21,11 @@ interface delegates, etc.
 
     -   [ access-modifier ] **static** **delegate** return-type qualified-delegate-name **(** method-params-list **)** [ **throws** error-list ] **;**
 
+
 -   qualified-delegate-name:
 
     -   [ qualified-namespace-name **.** ] delegate-name
+
 
 -   delegate-name:
 
