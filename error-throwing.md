@@ -32,5 +32,6 @@ Throwing an error is done with the following syntax:
     -   [ qualified-namespace-name **.** ] error-domain-name
 
 That is, throw an error that has already been created and can be identified by a name, or a new error created with a textual description.
+
 The message-expression is any expression that evaluates to a instace of the string type.
 
