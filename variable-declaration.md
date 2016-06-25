@@ -9,19 +9,21 @@ Variable Declaration Statements define a local variable in current scope. The de
 
     -   variable-declaration-with-explicit-type
 
-        variable-declaration-with-explicit-type-and-initialiser
+    -   variable-declaration-with-explicit-type-and-initialiser
 
-        variable-declaration-with-type-inference
+    -   variable-declaration-with-type-inference
 
-    variable-declaration-with-explicit-type:
+-   variable-declaration-with-explicit-type:
 
     -   type-name identifier **;**
 
-    variable-declaration-with-explicit-type-and-initialiser:
+
+-   variable-declaration-with-explicit-type-and-initialiser:
 
     -   type-name identifier **=** expression **;**
 
-    variable-declaration-with-type-inference:
+
+-   variable-declaration-with-type-inference:
 
     -   var identifier **=** expression **;**
 
