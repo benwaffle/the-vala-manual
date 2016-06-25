@@ -3,8 +3,7 @@
 Simple statements
 =================
 
-The Empty Statement does nothing, but is a valid statement nonetheless,
-and so can be used wherever a statement is required.
+The Empty Statement does nothing, but is a valid statement nonetheless, and so can be used wherever a statement is required.
 
 -   empty-statement:
 
@@ -36,6 +35,5 @@ A Statement Block allows several statements to be used in a context that would o
 
     -   statement [ statement-list ]
 
-Blocks create anonymous, transient scopes. For more details about scopes, see [Concepts/Scope and naming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Scope_and_naming)
-.
+Blocks create anonymous, transient scopes. For more details about scopes, see [Concepts/Scope and naming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Scope_and_naming).
 
