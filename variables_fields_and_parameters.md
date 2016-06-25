@@ -14,11 +14,11 @@ Within executable code in a method, an instance may be assigned to a variable. A
 
     int a;
 
-This declaration defines that "a" should become an expression that evaluates to an instance of the int type. The actual value of this expression will depend on which int instance is assigned to the variable. "a" can be assigned to more than once, with the most recent assigment being the only one considered when "a" is evaluated. Assignment to the variable is achieved via an assignment expression. Generally, the semantics of an assignment expression depends on the type of the variable.
+This declaration defines that "a" should become an expression that evaluates to an instance of the int type. The actual value of this expression will depend on which int instance is assigned to the variable. "a" can be assigned to more than once, with the most recent assignment being the only one considered when "a" is evaluated. Assignment to the variable is achieved via an assignment expression. Generally, the semantics of an assignment expression depends on the type of the variable.
 
-A variable can take ownership of an instance, the precise meaning of which depends on the data type. In the context of reference types, it is possible to declare that a variable should not ever take ownership of an instance, this is done with the `unowned` keyword. See [Types/Reference types](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Types#Reference_types).
+A variable can take ownership of an instance, the precise meaning of which depends on the data type. In the context of reference types, it is possible to declare that a variable should not ever take ownership of an instance. This is done with the `unowned` keyword. See [Types/Reference types](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Types#Reference_types).
 
-If a type is directly instantiated in a variable declaration statement, then the variable will be created owning that new instance, for example:
+If a type is directly instantiated in a variable declaration statement, then the variable will be created owning that new instance. For example:
 
     string s = "stringvalue";
 
@@ -28,16 +28,15 @@ For more details of the concepts in this section, see [Statements/Variable decla
 
 #### Fields
 
-A field is similar to a variable, except for the scope that it is defined in. Fields can be defined in namespaces, classes and structs. In the case of classes and structs, they may be either in the scope of the the class or struct, or in the scope of each instance of the class or
-struct.
+A field is similar to a variable, except for the scope that it is defined in. Fields can be defined in namespaces, classes and structs. In the case of classes and structs, they may be either in the scope of the the class or struct, or in the scope of each instance of the class or struct.
 
-A field is valid as long as its scope still exists - for non-instance fields, this is the entire life of the application; for instance fields, this is the lifetime of the instance.
+A field is valid as long as its scope still exists. For non-instance fields, this is the entire life of the application. For instance fields, this is the lifetime of the instance.
 
 Like variables, fields can take ownership of instances, and it is again possible to avoid this with the `unowned` keyword.
 
 If a type is directly instantiated in the declaration of the field, then that field will be created owning that new instance.
 
-For more details about fields, see [Namespaces](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Namespaces#) , [Classes](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#) and [Structs](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Structs#).
+For more details about fields, see [Namespaces](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Namespaces#), [Classes](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#) and [Structs](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Structs#).
 
 #### Parameters
 
