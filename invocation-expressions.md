@@ -20,7 +20,7 @@ The expression can refer to any callable: a method, a delegate or a signal. The 
 
 If the callable has an ellipsis parameter, then any number of arguments of any type can be provided past the ellipsis.
 
-Delegates... See [Delegates](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Delegates#)
+Delegates... See [Delegates](delegates.md)
 
-Firing a signal is basically the same. See [Classes/Signals](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Signals)
+Firing a signal is basically the same. See [Classes/Signals](signals.md)
 

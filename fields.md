@@ -13,5 +13,5 @@ Variables that exist directly in a namespace are known as namespace fields. Thes
 
     -   identifier
 
-Fields in general are described at [Concepts/Variables, fields and parameters](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Variables,_fields_and_parameters).
+Fields in general are described at [Concepts/Variables, fields and parameters](variables_fields_and_parameters.md).
 

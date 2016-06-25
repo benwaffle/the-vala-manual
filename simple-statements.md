@@ -35,5 +35,5 @@ A Statement Block allows several statements to be used in a context that would o
 
     -   statement [ statement-list ]
 
-Blocks create anonymous, transient scopes. For more details about scopes, see [Concepts/Scope and naming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Scope_and_naming).
+Blocks create anonymous, transient scopes. For more details about scopes, see [Concepts/Scope and naming](scope-and-naming.md).
 

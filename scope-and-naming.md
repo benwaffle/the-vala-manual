@@ -20,14 +20,11 @@ Scopes in Vala are introduced in various different ways.
 -   Instance scopes are created when a data type is instantiated, for example when a new instance of a classed type is created. These scopes can be accessed via identifiers defined in other scopes, e.g.
     a variable to which the new instance is assigned.
 
-To refer to an identifier in another scope, you must generally qualify the name. For named scopes, the scope name is used; for instance scopes,
-any identifier to which the instance is assigned can be used. See
-[Expressions/Member access expressions](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Expressions#Member_access_expressions)
-for the syntax of accessing other scopes.
+To refer to an identifier in another scope, you must generally qualify the name. For named scopes, the scope name is used; for instance scopes, any identifier to which the instance is assigned can be used. See [Expressions/Member access expressions](member-access.md) for the syntax of accessing other scopes.
 
 Scopes have parent scopes. If an identifier is not recognised in the current scope, the parent scope is searched. This continues up to the the global scope. The parent scope of any scope is inferred from its position in the program - the parent scope can easily be identified as it is the scope the current declaration is in.
 
-For example, a namespace method creates a transient scope when it is invoked - the parent of this scope if the namespace which contains the definition of the method. There are slightly different rules applied when instances are involved, as are described at [Classes/Class scope](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Class_scope).
+For example, a namespace method creates a transient scope when it is invoked - the parent of this scope if the namespace which contains the definition of the method. There are slightly different rules applied when instances are involved, as are described at [Classes/Class scope](class-scope.md).
 
 The ultimate parent of all other scopes is the global scope. The scope contains the fundamental data types, e.g. int, float, string. If a program has a declaration outside of any other, it is placed in this scope.
 
@@ -44,12 +41,9 @@ The following rules describe when to qualify names:
 
 -   For names in other scopes entirely, or that are less deeply nested than the current, use the fully qualified name (starting from the global scope.)
 
-There are some intricacies of scopes described elsewhere in this documentation. See
-[Classes](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#)
-for how scopes are managed for inherited classes.
+There are some intricacies of scopes described elsewhere in this documentation. See [Classes](classes.md) for how scopes are managed for inherited classes.
 
-Vala will lookup names assuming first that they are not fully qualified.
-If a fully qualified name can be partially matched locally, or in a parent scope that is not the global scope, the compilation will fail. To avoid problems with this, do not reuse names from the global scope in other scopes.
+Vala will lookup names assuming first that they are not fully qualified. If a fully qualified name can be partially matched locally, or in a parent scope that is not the global scope, the compilation will fail. To avoid problems with this, do not reuse names from the global scope in other scopes.
 
 There is one special scope qualifier that can be used to avoid the problem described in the previous paragraph. Prefixing an identifier with `global::` will instruct the compiler to only attempt to find the identifier in the global scope, skipping all earlier searching.
 

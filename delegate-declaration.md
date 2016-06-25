@@ -32,4 +32,4 @@ interface delegates, etc.
     -   identifier
 
 Parts of this syntax are based on the respective sections of the method declaration syntax (see
-[Methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#) for details).
+[Methods](methods.md) for details).

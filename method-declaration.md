@@ -51,4 +51,4 @@ The syntax for declaring a method changes slightly based on what sort of method 
 
     -   [ **requires** **(** expression **)** ] [ **ensures** **(**expression **)** ]
 
-For more details see [Methods/Contract programming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#Contract_programming), and [Errors](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Errors#).
+For more details see [Methods/Contract programming]((contract-programming.md)), and [Errors](errors.md).

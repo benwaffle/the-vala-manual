@@ -88,7 +88,7 @@ Class declaration
 
     -   [ access-modifier ] **class** class-name [ inheritance-list ] **{** [ class-members ] **}**
 
-In Vala, a class must have either one or zero superclasses, where have zero superclasses has the result described in [Classes/Types of class](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Types_of_class) section. A class must meet all the prerequisites defined by the interfaces it wishes to implement, by implementing prerequisite interfaces or inheriting from a particular class. This latter requirement means it is potentially possible to have two interfaces that cannot be implemented by a single class.
+In Vala, a class must have either one or zero superclasses, where have zero superclasses has the result described in [Classes/Types of class](types_of_class.md) section. A class must meet all the prerequisites defined by the interfaces it wishes to implement, by implementing prerequisite interfaces or inheriting from a particular class. This latter requirement means it is potentially possible to have two interfaces that cannot be implemented by a single class.
 
 > **Note**
 >

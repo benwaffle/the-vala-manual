@@ -1,7 +1,7 @@
 Properties
 ==========
 
-Properties are an enhanced version of fields. They allow custom code to be called whenever the property is retrieved or assigned to, but may be treated as fields by external Vala code. Properties also function like methods to some extent, and so can be defined as virtual and overridden in subclasses. Since they are also allowed in interfaces, they allow interfaces to declare data members that implementing classes must expose (see [Interfaces](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Interfaces#).)
+Properties are an enhanced version of fields. They allow custom code to be called whenever the property is retrieved or assigned to, but may be treated as fields by external Vala code. Properties also function like methods to some extent, and so can be defined as virtual and overridden in subclasses. Since they are also allowed in interfaces, they allow interfaces to declare data members that implementing classes must expose (see [Interfaces](interfaces.md).)
 
 > **Notes**
 > 
@@ -86,7 +86,7 @@ A property may have zero or one **construct** blocks. This means either a **set 
 
 Notify Changes Signals
 ----------------------
-Managed properties may be annotated with Notify, See [Attributes](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Attributes#). This will cause the class instance to emit a notify signal when the property has been assigned to.
+Managed properties may be annotated with Notify, See [Attributes](attributes.md). This will cause the class instance to emit a notify signal when the property has been assigned to.
 
 Virtual Properties
 ------------------

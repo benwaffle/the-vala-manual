@@ -3,7 +3,7 @@
 The "using" statement
 =====================
 
-`using` statements can be used to avoid having to qualify names fully on a file-by-file basis. For all identifiers in the same file as the using statement, Vala will first try to resolve them following the usual rules (see [Concepts/Scope and naming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Scope_and_naming)). If the identifier cannot be resolved in any scope, each namespace that is referenced in a `using` will be searched in turn.
+`using` statements can be used to avoid having to qualify names fully on a file-by-file basis. For all identifiers in the same file as the using statement, Vala will first try to resolve them following the usual rules (see [Concepts/Scope and naming](scope-and-naming.md)). If the identifier cannot be resolved in any scope, each namespace that is referenced in a `using` will be searched in turn.
 
 -   using-statement:
 

@@ -1,6 +1,6 @@
 # Interfaces
 
-An interface in Vala is a non-instantiable type. A class may implement any number of interfaces, thereby declaring that an instance of that class should also be considered an instance of those interfaces. Interfaces are part of the GType system, and so compact classes may not implement interfaces (see [Classes/Types of class](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Types_of_class).)
+An interface in Vala is a non-instantiable type. A class may implement any number of interfaces, thereby declaring that an instance of that class should also be considered an instance of those interfaces. Interfaces are part of the GType system, and so compact classes may not implement interfaces (see [Classes/Types of class](types-of-class.md).)
 
 The simplest interface declaration looks like this:
 
@@ -13,4 +13,4 @@ Unlike C\# or Java, Vala's interfaces may include implemented methods, and so pr
 
 Interfaces in Vala have a static scope, identified by the name of the interface. This is the only scope associated with them (i.e. there is no class or instance scope created for them at any time.) Non-instance members of the interface (static members and other declarations,) can be identified using this scope.
 
-For an overview of object oriented programming, see [Concepts/Object oriented programming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Object_oriented_programming).
+For an overview of object oriented programming, see [Concepts/Object oriented programming](object_oriented_programming.md).

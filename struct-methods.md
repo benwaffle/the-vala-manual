@@ -3,7 +3,7 @@
 Struct methods
 ==============
 
-See [Methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Methods#), See [Classes/Class methods](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Class_methods)
+See [Methods](methods.md), See [Classes/Class methods](class-methods.md)
 
 -   struct-method-declaration:
 

@@ -23,7 +23,7 @@ Iteration statements are used to execute statements multiple times based on cert
 
     -   loop-embedded-statement [ loop-embedded-statement-list ]
 
-Both break and continue statement are types of jump statement, described in [Statements/Jump statements](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Statements#Jump_statements).
+Both break and continue statement are types of jump statement, described in [Statements/Jump statements](jump-statements.md).
 
 The while statement conditionally executes an embedded statement zero or more times. When the while statement is reached, the boolean expression is executed. If the boolean value is true, the embedded statement is executed and execution returns to the while statement. If the boolean value is false, execution continues after the while statement.
 

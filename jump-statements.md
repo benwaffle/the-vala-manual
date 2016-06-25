@@ -3,7 +3,7 @@
 Jump statements
 ===============
 
-Jump statements move execution to an arbitary point, dependent on the type of statement and its location. In any of these cases any transient scopes are ended appropriately: [Concepts/Scope and naming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Scope_and_naming) and [Statements/Simple statements](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Statements#Simple_statements).
+Jump statements move execution to an arbitary point, dependent on the type of statement and its location. In any of these cases any transient scopes are ended appropriately: [Concepts/Scope and naming](scope-and-naming.md) and [Statements/Simple statements](simple-statements.md).
 
 A break statement moves execution to the first statement after the nearest enclosing while, do, for, or foreach statement.
 

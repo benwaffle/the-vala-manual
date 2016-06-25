@@ -27,6 +27,5 @@ Variable Declaration Statements define a local variable in current scope. The de
 
     -   var identifier **=** expression **;**
 
-Type inference is possible in any case where the variable is immediately assigned to. The type chosen will always be the type of the assigned expression, as decided by the rules described at
-[Expressions](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Expressions#). It is important to note that the type of the variable will be fixed after the first assignment. It will not change on assigning another value to the variable. If the variable should be created with a type other than that of the assigned expression, the expression should be wrapped with a cast expression (provided that the cast is valid).
+Type inference is possible in any case where the variable is immediately assigned to. The type chosen will always be the type of the assigned expression, as decided by the rules described at [Expressions](expressions.md). It is important to note that the type of the variable will be fixed after the first assignment. It will not change on assigning another value to the variable. If the variable should be created with a type other than that of the assigned expression, the expression should be wrapped with a cast expression (provided that the cast is valid).
 
