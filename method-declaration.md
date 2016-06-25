@@ -9,6 +9,7 @@ The syntax for declaring a method changes slightly based on what sort of method 
 
     -   [ access-modifier ] return-type qualified-method-name ( [ params-list ] ) [ **throws** error-list ] method-contracts **{** statement-list **}**
 
+
 -   return-type:
 
     -   type
@@ -19,6 +20,7 @@ The syntax for declaring a method changes slightly based on what sort of method 
 
     -   [ qualified-namespace-name **.** ] method-name
 
+
 -   method-name:
 
     -   identifier
@@ -26,6 +28,7 @@ The syntax for declaring a method changes slightly based on what sort of method 
 -   params-list:
 
     -   parameter [ **,** params-list ]
+
 
 -   parameter:
 
