@@ -37,4 +37,3 @@ The syntax of the try statement:
     -   **finally** statement-block
 
 In the statement block scope of each catch clause, the error is assigned to a variable with the identifier given.
-
