@@ -47,6 +47,9 @@ Any number of these are allowed, but only one with each name (including null nam
 >
 > For a GObject derived class, only properties may be set at this stage in construction, no other processing can be done at this time.
 
+Construction
+======
+
 During instantiaion, after construction properties have been set, a series of blocks of code are executed. This is the process that prepares the instance for use. There are three types of `construct`blocks that a class may define:
 
 -   class-instance-constructor-declaration:
