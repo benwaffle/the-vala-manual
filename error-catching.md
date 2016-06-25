@@ -9,28 +9,30 @@ The syntax of the try statement:
 
     -   **try** statement-block catch-clauses
 
-        **try** statement-block [catch-clauses] finally-clause
+    -   **try** statement-block [catch-clauses] finally-clause
 
-    catch-clauses:
+-   catch-clauses:
 
     -   [ specific-catch-clauses ] general-catch-clause
 
-    specific-catch-clauses:
+
+-   specific-catch-clauses:
 
     -   specific-catch-clause
 
-        [ specific-catch-clauses ]
+    -   [ specific-catch-clauses ]
 
-    specific-catch-clause:
+-   specific-catch-clause:
 
-    -   **catch** **(** qualified-error-type identifier **)**
-        statement-block
+    -   **catch** **(** qualified-error-type identifier **)** statement-block
 
-    general-catch-clause:
+
+-   general-catch-clause:
 
     -   **catch** statement-block
 
-    finally-clause:
+
+-   finally-clause:
 
     -   **finally** statement-block
 
