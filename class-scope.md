@@ -8,7 +8,6 @@ Class scope is more complicated than other scopes, but conceptually the same. A 
 Within the code of a class, the instance and class scopes are automatically searched as appropriate after the local scope, so no qualification is normally required. When there is a conflict with a name in the local scope, the `this` scope can be used, for example:
 
 ```vala
-
 class ClassName {
 
   int field_name;
