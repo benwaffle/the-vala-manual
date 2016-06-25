@@ -35,8 +35,8 @@ The following rules describe when to qualify names:
 
 -   For names in other scopes entirely, or that are less deeply nested than the current, use the fully qualified name (starting from the global scope.)
 
-There are some intricacies of scopes described elsewhere in this documentation. See [Classes](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#) for how scopes are managed for inherited classes.
+There are some intricacies of scopes described elsewhere in this document. See [Classes](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#) for how scopes are managed by inherited classes.
 
 Vala will lookup names assuming first that they are not fully qualified. If a fully qualified name can be partially matched locally, or in a parent scope that is not the global scope, the compilation will fail. To avoid problems with this, do not reuse names from the global scope in other scopes.
 
-There is one special scope qualifier that can be used to avoid the problem described in the previous paragraph. Prefixing an identifier with `global::` will instruct the compiler to only attempt to find the identifier in the global scope, skipping all earlier searching.
+There is one special scope qualifier that can be used to avoid the problem described in the previous paragraph. Prefixing an identifier with `global::` will instruct the compiler to only attempt to find the identifier in the global scope.
