@@ -26,9 +26,6 @@ The pointer indirection evaluates to the value pointed to by the inner expressio
 
 This expression evaluates to the value of the member identified by the identifier. The inner expression must be a valid pointer type and the member must be in the scope of the base type of the pointer type.
 
-Back to [Vala Reference Manual](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual#)
-
-
 
 Statements
 ----------
