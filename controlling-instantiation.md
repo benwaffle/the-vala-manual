@@ -16,25 +16,22 @@ class ClassName : GLib.Object {
 }
 ```
 
-This example allows the
-[ClassName](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/ClassName#)
-class to be instantiated either setting no properties, or setting the property. The convention is to name constructors as "with\_" and then a description of what the extra properties will be used for, though following this is optional.
+This example allows the [ClassName](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/ClassName#) class to be instantiated either setting no properties, or setting the property. The convention is to name constructors as "with\_" and then a description of what the extra properties will be used for, though following this is optional.
 
 -   class-creation-method-declaration:
 
-    -   [ class-member-visibility-modifier ] class-name [ **.**
-        creation-method-name ] **(** param-list **)** **{**
-        construction-assignments **}**
+    -   [ class-member-visibility-modifier ] class-name [ **.** creation-method-name ] **(** param-list **)** **{** construction-assignments **}**
 
-    class-name:
 
-    -   identifier
-
-    creation-method-name:
+-   class-name:
 
     -   identifier
 
-    construction-assignments:
+-   creation-method-name:
+
+    -   identifier
+
+-   construction-assignments:
 
     -   this **.** property-name **=** param-name **;**
 
