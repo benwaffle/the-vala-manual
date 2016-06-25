@@ -94,8 +94,7 @@ public static int main () {
 }
 ```
 
-Here is an example of implementing (and inheriting) a *virtual*
-interface method. Note that the same rules for subclasses re-implementing methods that apply to the *abstract* interface method above apply here.
+Here is an example of implementing (and inheriting) a *virtual* interface method. Note that the same rules for subclasses re-implementing methods that apply to the *abstract* interface method above apply here.
 
 ```vala
 /* 
