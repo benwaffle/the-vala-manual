@@ -12,9 +12,5 @@ FIXME: Haven't actually written anything here about resource control.
     -   **lock** **(** identifier **)** embedded-statement
 
 
-Namespaces
-----------
-
-
 
 
