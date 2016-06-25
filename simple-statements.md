@@ -16,7 +16,7 @@ A Simple Statement consists of one a subset of expressions that are considered f
 
     -   statement-expression **;**
 
-    statement-expression:
+-   statement-expression:
 
     -   assigment-expression
 
