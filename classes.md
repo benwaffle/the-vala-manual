@@ -1,8 +1,7 @@
 Classes
 -------
 
-A class is definition of a data type. A class can contain fields,
-constants, methods, properties, and signals. Class types support inheritance, a mechanism whereby a derived class can extend and specialize a base class.
+A class is definition of a data type. A class can contain fields, constants, methods, properties, and signals. Class types support inheritance, a mechanism whereby a derived class can extend and specialize a base class.
 
 The simplest class declaration looks like this:
 
