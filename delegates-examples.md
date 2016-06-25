@@ -19,7 +19,6 @@ static void DelegateName () throws GLib.Error;
 Invoking delegates, and passing as parameters.
 
 ```vala
-
 void f1(int a) {
 	stdout.printf("%d", a);
 }
@@ -34,8 +33,6 @@ f2(f1, 5);
 Instance delegates:
 
 ```vala
-
-
 class Test : Object {
 
 	private int data = 5;
