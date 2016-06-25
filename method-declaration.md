@@ -7,29 +7,27 @@ The syntax for declaring a method changes slightly based on what sort of method 
 
 -   method-declaration:
 
-    -   [ access-modifier ] return-type qualified-method-name ( [
-        params-list ] ) [ **throws** error-list ] method-contracts **{**
-        statement-list **}**
+    -   [ access-modifier ] return-type qualified-method-name ( [ params-list ] ) [ **throws** error-list ] method-contracts **{** statement-list **}**
 
-    return-type:
+-   return-type:
 
     -   type
 
-        **void**
+    -   **void**
 
-    qualified-method-name:
+-   qualified-method-name:
 
     -   [ qualified-namespace-name **.** ] method-name
 
-    method-name:
+-   method-name:
 
     -   identifier
 
-    params-list:
+-   params-list:
 
     -   parameter [ **,** params-list ]
 
-    parameter:
+-   parameter:
 
     -   [ parameter-direction ] type identifier
 
