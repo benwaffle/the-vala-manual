@@ -11,28 +11,24 @@ The `static` modifier is applicable to methods also. A static method is independ
 
 -   class-instance-method-declaration:
 
-    -   [ class-member-visibility-modifier ] [
-        class-method-type-modifier ] return-type method-name **(** [
-        params-list ] **)** method-contracts [ **throws**
-        exception-list] **{** statement-list **}**
+    -   [ class-member-visibility-modifier ] [ class-method-type-modifier ] return-type method-name **(** [ params-list ] **)** method-contracts [ **throws** exception-list] **{** statement-list **}**
 
-    class-class-method-declaration:
 
-    -   [ class-member-visibility-modifier ] **class** return-type
-        method-name **(** [ params-list ] **)** method-contracts [
-        **throws** exception-list ] **{** statement-list **}**
+-   class-class-method-declaration:
 
-    class-static-method-declaration:
+    -   [ class-member-visibility-modifier ] **class** return-type method-name **(** [ params-list ] **)** method-contracts [ **throws** exception-list ] **{** statement-list **}**
 
-    -   [ class-member-visibility-modifier ] **static** return-type
-        method-name **(** [ params-list ] **)** method-contracts [
-        **throws** exception-list ] **{** statement-list **}**
 
-    class-method-type-modifier:
+-   class-static-method-declaration:
+
+    -   [ class-member-visibility-modifier ] **static** return-type method-name **(** [ params-list ] **)** method-contracts [ **throws** exception-list ] **{** statement-list **}**
+
+
+-   class-method-type-modifier:
 
     -   **virtual**
 
-        **override**
+    -   **override**
 
 Methods can be virtual, as described in [Concepts/Object oriented programming](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Concepts#Object_oriented_programming)
 . Methods in Vala classes are not virtual automatically, instead the
