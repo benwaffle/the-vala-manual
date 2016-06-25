@@ -25,7 +25,7 @@ When assignment includes another operation natural result type must match the de
 
     -   conditional-expression **\*=** expression
 
-    -   conditional-expression **/=** expression
+    -   conditional-expression **=** expression
 
     -   conditional-expression **%=** expression
 
@@ -33,9 +33,9 @@ When assignment includes another operation natural result type must match the de
 
     -   conditional-expression **&=** expression
 
-    -   conditional-expression **\^=** expression
+    -   conditional-expression **^=** expression
 
-    -   conditional-expression **\<\<=** expression
+    -   conditional-expression **<<=** expression
 
     -   conditional-expression **\>\>=** expression
 
@@ -51,4 +51,3 @@ Are equivalent to simple assignments:
 result = result + value;
 result = result << value;
 ```     
-
