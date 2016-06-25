@@ -9,21 +9,25 @@ Throwing an error is done with the following syntax:
 
     -   **throw** error-description **;**
 
-    error-description:
+
+-   error-description:
 
     -   identifier
 
-        error-creation-expression
+    -   error-creation-expression
 
-    error-creation-expression:
+
+-   error-creation-expression:
 
     -   **new** qualified-error-type **(** message-expression **)**
 
-    qualified-error-type:
+
+-   qualified-error-type:
 
     -   qualified-error-domain **.** error-type
 
-    qualified-error-domain:
+
+-   qualified-error-domain:
 
     -   [ qualified-namespace-name **.** ] error-domain-name
 
