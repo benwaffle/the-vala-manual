@@ -30,7 +30,7 @@ Documentation
 
     -   additive-expression **\<\<** additive-expression
 
-        additive-expression **\>\>** additive-expression
+    -   additive-expression **\>\>** additive-expression
 
 
 Shifts the bits of the left argument left/right by the number represented by the second argument.
