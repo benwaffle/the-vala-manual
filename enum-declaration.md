@@ -5,38 +5,44 @@ Enum declaration
 
 -   enum-declaration:
 
-    -   [ access-modifier ] **enum** qualified-enum-name **{** [
-        enum-members ] **}**
+    -   [ access-modifier ] **enum** qualified-enum-name **{** [ enum-members ] **}**
 
-    qualified-enum-name:
+
+-   qualified-enum-name:
 
     -   [ qualified-namespace-name **.** ] enum-name
 
-    enum-name:
+
+-   enum-name:
 
     -   identifier
 
-    enum-members:
+
+-   enum-members:
 
     -   [ enum-values ] [ **;** enum-methods ]
 
-    enum-values:
+
+-   enum-values:
 
     -   enum-value [ **,** enum-values ]
 
-    enum-value:
+
+-   enum-value:
 
     -   enum-value-name [ **=** expression ]
 
-    enum-value-name:
+
+-   enum-value-name:
 
     -   identifier
 
-    enum-methods:
+
+-   enum-methods:
 
     -   enum-method [ enum-methods ]
 
-    enum-method:
+
+-   enum-method:
 
     -   method-declaration
-
