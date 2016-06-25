@@ -7,25 +7,27 @@ Lambda expressions
 
     -   params **=\>** body
 
-    params:
+
+-   params:
 
     -   [ direction ] identifier
 
-        **(** [ param-names ] **)**
+    -   **(** [ param-names ] **)**
 
-    param-names:
+
+-   param-names:
 
     -   [ direction ] identifier [ **,** param-names ]
 
-    direction:
+-   direction:
 
     -   **out**
 
-        **ref**
+    -   **ref**
 
-    body:
+-   body:
 
     -   statement-block
 
-        expression
+    -   expression
 
