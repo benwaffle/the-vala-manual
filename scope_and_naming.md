@@ -19,9 +19,9 @@ Scopes in Vala are introduced in various ways.
 
 To refer to an identifier in another scope, you must generally qualify the name. For named scopes, the scope name is used; for instance scopes, any identifier to which the instance is assigned can be used. See [Expressions/Member access expressions](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Expressions#Member_access_expressions) for the syntax of accessing other scopes.
 
-Scopes have parent scopes. If an identifier is not recognised in the current scope, the parent scope is searched. This continues up to the the global scope. The parent scope of any scope is inferred from its position in the program - the parent scope can easily be identified as it is the scope the current declaration is in.
+Scopes have parent scopes. If an identifier is not recognised in the current scope, the parent scope is searched. This continues up to the global scope. The parent scope of any scope is inferred from its position in the program. The parent scope can easily be identified as it is the scope the current declaration is in.
 
-For example, a namespace method creates a transient scope when it is invoked - the parent of this scope if the namespace which contains the definition of the method. There are slightly different rules applied when instances are involved, as are described at [Classes/Class scope](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Class_scope).
+For example, a namespace method creates a transient scope when it is invoked. The parent of this scope is the namespace which contains the definition of the method. There are slightly different rules applied when instances are involved, as described at [Classes/Class scope](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Classes#Class_scope).
 
 The ultimate parent of all other scopes is the global scope. The scope contains the fundamental data types, e.g. int, float, string. If a program has a declaration outside of any other, it is placed in this scope.
 
