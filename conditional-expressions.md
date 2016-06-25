@@ -24,5 +24,5 @@ Allow a conditional in a single expression.
 
     -   expression
 
-First boolean-expression is evaluated. If true, then the conditional-true-clause is evaluated, and its result is the result of the conditional expression. If the boolean expression evaluates to false, then the conditional-false-clause is evaluated, and its result becomes the result of the conditional expression.
+The first boolean-expression is evaluated. If true, then the conditional-true-clause is evaluated, and its result is the result of the conditional expression. If the boolean expression evaluates to false, then the conditional-false-clause is evaluated. Its result becomes the result of the conditional expression.
 
