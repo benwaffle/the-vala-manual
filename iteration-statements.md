@@ -9,22 +9,21 @@ Iteration statements are used to execute statements multiple times based on cert
 
     -   loop-embedded-statement-block
 
-        embedded-statement
+    -   embedded-statement
 
-        break-statement
+    -   break-statement
 
-        continue-statement
+    -   continue-statement
 
-    loop-embedded-statement-block:
+-   loop-embedded-statement-block:
 
     -   **{** [ loop-embedded-statement-list ] **}**
 
-    loop-embedded-statement-list:
+-   loop-embedded-statement-list:
 
     -   loop-embedded-statement [ loop-embedded-statement-list ]
 
-Both break and continue statement are types of jump statement, described in [Statements/Jump statements](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Statements#Jump_statements)
-.
+Both break and continue statement are types of jump statement, described in [Statements/Jump statements](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Statements#Jump_statements).
 
 The while statement conditionally executes an embedded statement zero or more times. When the while statement is reached, the boolean expression is executed. If the boolean value is true, the embedded statement is executed and execution returns to the while statement. If the boolean value is false, execution continues after the while statement.
 
@@ -36,21 +35,19 @@ The do statement conditionally executes an embedded statement one or more times.
 
 -   do-statement:
 
-    -   **do** loop-embedded-statement **while** **(**
-        boolean-expression **)** **;**
+    -   **do** loop-embedded-statement **while** **(** boolean-expression **)** **;**
 
 The for statement first evaluates a sequence of initialization expressions, then repeatedly executes an embedded statement. At the start of each iteration a boolean expression is evaluated, with a true value leading the execution of the embedded statement, a false value leading to execution passing to the first statement following the do statement. After each iteration a sequence of iteration expressions are evaluated. Executing this type of statement creates a new transient scope, in which any variables declared in the initializer are created.
 
 -   for-statement:
 
-    -   **for** **(** [ for-initializer ] **;** [ for-condition ] **;**
-        [ for-iterator ] **)** loop-embedded-statement
+    -   **for** **(** [ for-initializer ] **;** [ for-condition ] **;** [ for-iterator ] **)** loop-embedded-statement
 
-    for-initializer:
+-   for-initializer:
 
     -   variable-declaration [ **,** expression-list ]
 
-    for-condition:
+-   for-condition:
 
     -   boolean-expression
 
