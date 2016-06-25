@@ -89,6 +89,7 @@
    * [Class enums](class-enums.md)
    * [Class delegates](class-delegates.md)
    * [Examples](class-examples.md)
+   * Class constants
 * [Signals](signals.md)
 * [Interfaces](interfaces.md)
    * [Interface declaration](interface-declaration.md)
