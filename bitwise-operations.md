@@ -35,6 +35,6 @@ Documentation
 
 Shifts the bits of the left argument left/right by the number represented by the second argument.
 
-Undefined for shifting further than data size, e.g. with a 32 bit integer...
+The behaviour is undefined for shifting further than data size, e.g. with a 32 bit integer...
 
 
