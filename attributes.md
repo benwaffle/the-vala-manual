@@ -1,7 +1,7 @@
 Attributes
 ----------
 
-Attributes are metadata information that is specified with regards to a symbol (a class, field, parameter, etc.).
+Attributes are metadata information that applies to a given symbol (a class, field, parameter, etc.).
 
 Attributes provide extra information in order to:
 
@@ -11,8 +11,7 @@ Attributes provide extra information in order to:
 
 -   Give extra information to Vala that isn't included in code. Mostly used internally in Vala.
 
-Most of these attributes are only useful within bindings. Some, however,
-are useful in normal code:
+Most of these attributes are only useful within bindings. Some, however, are useful in normal code:
 
 -   `[DBus]` , `[Description]` , `[Deprecated]` , `[Signal]` , `[ModuleInit]` (if you're writing a module).
 
