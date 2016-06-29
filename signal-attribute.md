@@ -4,7 +4,7 @@ Signal Attribute
 ================
 This attribute influences the generation and usage of object signals, mostly for the GObject type system. The default is G\_SIGNAL\_RUN\_LAST.
 
-| Name | Type | Description (optional) |
+| Name | Type | Description |
 | --- | --- | --- |
 | detailed | bool |Sets the G\_SIGNAL\_DETAILED flag. |
 |no\_recurse | bool |Sets the G\_SIGNAL\_NO\_RECURSE flag. |
