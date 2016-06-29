@@ -1,9 +1,7 @@
 Attributes
 ----------
 
-Attributes are metadata information that applies to a given symbol (a class, field, parameter, etc.).
-
-Attributes provide extra information in order to:
+Attributes are metadata information that applies to a symbol (a class, field, parameter, etc.). This extra information is used to:
 
 -   Integrate libraries more directly. These are the ones most often used in new Vala programs/libraries.
 
