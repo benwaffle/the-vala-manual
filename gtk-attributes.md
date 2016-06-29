@@ -14,7 +14,7 @@ Can only be applied to classes that inherit from Gtk.Widget. The "ui" argument i
 **GtkChild attribute**
 
 Can only be applied to fields of classes being marked with
-[GtkTemplate]. It's used to connect a field with a child object in the Gtk builder definition.
+`[GtkTemplate]`. It's used to connect a field with a child object in the Gtk builder definition.
 
 | Name | Type | Description |
 | --- | ---- | ---- |
