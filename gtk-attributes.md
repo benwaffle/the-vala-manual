@@ -24,20 +24,8 @@ Can only be applied to fields of classes being marked with
 **GtkCallback attribute**
 
 Can only be applied to methods of classes being marked with
-[GtkTemplate]. It's used to connect to a signal defined in the Gtk builder ui with the marked method.
+`[GtkTemplate]`. It's used to connect to a signal defined in the Gtk builder ui with the marked method.
 
-  ------------------------ ------------------------ ------------------------
-  **Name**                 **Type**                 **Example**
-
-  **Description                                     
-  (optional)**                                      
-
-  name                     string                   "on\_button\_clicked"
-
-  Custom name being used                            
-  in the Gtk builder ui                             
-  definition. By default                            
-  the name of the marked                            
-  method is used.                                   
-  ------------------------ ------------------------ ------------------------
-
+| Name | Type | Example | Description |
+| --- | ---- | ---- | ---- |
+| name | string | "on\_button\_clicked"| Custom name being used in the Gtk builder ui definition. By default the name of the marked method is used.|
