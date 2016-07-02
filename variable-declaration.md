@@ -11,7 +11,12 @@ Variable Declaration Statements define a local variable in current scope. The de
 
     -   variable-declaration-with-explicit-type-and-initialiser
 
+    -   variable-declaration-with-dynamic-type
+
+    -   variable-declaration-with-dynamic-type-and-initialiser
+
     -   variable-declaration-with-type-inference
+       
 
 -   variable-declaration-with-explicit-type:
 
@@ -21,6 +26,16 @@ Variable Declaration Statements define a local variable in current scope. The de
 -   variable-declaration-with-explicit-type-and-initialiser:
 
     -   type-name identifier **=** expression **;**
+
+
+-   variable-declaration-with-dynamic-type:
+
+    -   **dynamic** type-name identifier **;**
+
+
+-   variable-declaration-with-dynamic-type-and-initialiser:
+
+    -   **dynamic** type-name identifier **=** expression **;**
 
 
 -   variable-declaration-with-type-inference:
