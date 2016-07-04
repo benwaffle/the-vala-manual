@@ -13,5 +13,5 @@ Namespaces members exist in the namespace's scope. They fall into two broad cate
 
     -   **private**
 
-For the types of namespace members that are not described on this page see [Classes](classes.md), [Structs](structs.md),[Delegates](delegates.md),[Enumerated types(Enums)](enums.md), and [Enumerated types (Enums)/Error domains](error-domains.md).
+For the types of namespace members that are not described on this page see [Classes](classes.md), [Structs](structs.md), [Delegates](delegates.md), [Enumerated types(Enums)](enums.md), and [Enumerated types (Enums)/Error domains](error-domains.md).
 
