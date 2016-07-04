@@ -150,5 +150,5 @@
    * [Valid arguments](valid-arguments.md)
    * [Examples](gir-examples.md)
 * [Appendices](appendices.md)
-   * [License](COPYING.md)
+   * [License](../COPYING.md)
 
