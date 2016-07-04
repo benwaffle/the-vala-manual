@@ -25,7 +25,8 @@ To assign a handler to a signal, (or register to receive this type of event from
 
 -   signal-connection-expression:
 
-    -   [Deprecated] qualified-signal-name [ signal-detail ] **+=** signal-handler
+    -   qualified-signal-name [ signal-detail ] **.connect(** signal-handler **);**
+
 
 -   qualified-signal-name:
 
@@ -35,6 +36,7 @@ To assign a handler to a signal, (or register to receive this type of event from
 -   signal-detail:
 
     -   **[\*\* expression \*\*]**
+
 
 -   signal-handler:
 
