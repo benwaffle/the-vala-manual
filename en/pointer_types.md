@@ -1,6 +1,6 @@
 # Pointer types
 
-The name of a type can be used to implicitly create a pointer type related to that type. The value of a variable declared as being of type T\* represents the memory address of an instance of type T. The instance is never made aware that its address has been recorded, and so cannot record the fact that it is referred to in this way.
+The name of a type can be used to implicitly create a pointer type related to that type. The value of a variable declared as being of type T\* represents the memory address of an instance of type T. The instance is never made aware that its address has been recorded, and so cannot record that it is referred to in this way.
 
 Instances of any type can be assigned to a variable that is declared to be a pointer to an instance of that type. For referenced types, direct assignment is allowed in either direction. For value types the pointer-to operator "&" is required to assign to a pointer, and the pointer-indirection operator "\*" is used to access the instance pointed to. See [Expressions/Pointer expressions](pointer-expressions.md).
 
