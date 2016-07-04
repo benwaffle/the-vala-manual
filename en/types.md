@@ -10,10 +10,9 @@ A "type", loosely described, is just an abstract set of 0 or more data fields. A
 
 These elements are combined as the definition of the type. The definition is given to Vala in the form of a declaration, for example a class declaration.
 
-Vala supports three kinds of data types: value types, reference types,
-and meta types. Value types include simple types (e.g. char, int, and float), enum types, and struct types. Reference types include object types, array types, delegate types, and error types. Type parameters are parameters used in generic types.
+Vala supports three kinds of data types: value types, reference types and meta types. Value types include simple types (e.g. `char`, `int`, and `float`), `enum` types, and `struct` types. Reference types include object types, array types, delegate types, and error types. Type parameters are parameters used in generic types.
 
-Value types differ from reference types in that there is only ever one variable or field that refers to each instance, whereas variables or fields of the reference types store references to data which can also be referred to by other variable or fields. When two variables or fields of a reference type reference the same data, changes made using one identifier are visible when using the other. This is not possible with value types.
+Value types differ from reference types in that there is only ever one variable or field that refers to each instance. Variables or fields of the reference types store references to data which can also be referred to by other variable or fields. When two variables or fields of a reference type reference the same data, changes made using one identifier are visible when using the other. This is not possible with value types.
 
 Meta types are created automatically from other types, and so may have either reference or value type semantics.
 
