@@ -50,13 +50,11 @@ This expression will request that the signal handler given be invoked whenever t
 
 The time that an arbtirary expression is acceptable in this expression is when that expression evaluates to an instance of a delegate type, i.e. to a method that is a legal handler for the signal. For details on delegates, see [Delegates](delegates.md). For details on lambda expressions see [Methods/Lambdas](lambdas.md).
 
-Note that optional signal detail should be directly appended to the signal name, with no white space, e.g. `o.notify["name"] += ...`
-
 It is also possible to disconnect a signal handler using the following expression form:
 
 -   signal-disconnection-expression:
 
-    -   qualified-signal-name [ signal-detail ] **-=** connected-signal-handler
+    -   qualified-signal-name [ signal-detail ] **.disconnect(** connected-signal-handler **);**
 
 
 -   connected-signal-handler:
