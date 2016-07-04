@@ -78,8 +78,7 @@ Each variable or field to which a struct stype instance is assigned gains a copy
 
 #### Fundamental types
 
-In Vala, the fundamental types are defined as struct types whose data structure is known internally to Vala. They have one anonymous field,
-which is automatically accessed when required. All fundamental value types are defined as simple types, and so whenever the instance is assigned to a variable or field or passed as a function parameter, a copy of the data is made.
+In Vala, the fundamental types are defined as struct types whose data structure is known internally to Vala. They have one anonymous field, which is automatically accessed when required. All fundamental value types are defined as simple types, and so whenever the instance is assigned to a variable or field or passed as a function parameter, a copy of the data is made.
 
 The fundamental value types fall into one of three categories: the boolean type, integral types, and floating point types.
 
@@ -87,27 +86,21 @@ The fundamental value types fall into one of three categories: the boolean type,
 
 Integral types can contain only integers. They are either signed or unsigned, each of which is considered a different type, though it is possible to cast between them when needed.
 
-Some types define exactly how many bits of storage are used to represent the integer, others depend of the environment. long, int short map to C data types and therefore depend on the machine architecture. char is 1 byte. unichar is 4 bytes, i.e. large enough to store any UTF-8 character.
+Some types define exactly how many bits of storage are used to represent the integer, others depend of the environment. `long`, `int` and `short` map to C data types and therefore depend on the machine architecture. `char` is 1 byte. `unichar` is 4 bytes, i.e. large enough to store any UTF-8 character.
 
-All these types can be instantiated using a literal expression, see
-[Expressions/Literal expressions](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Projects/Vala/Manual/Expressions#Literal_expressions)
-.
+All these types can be instantiated using a literal expression, see [Expressions/Literal expressions](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Projects/Vala/Manual/Expressions#Literal_expressions).
 
 #### Floating point types
 
 Floating point types contain real floating point numbers in a fixed number of bits (see IEEE 754).
 
-All these types can be instantiated using a literal expression, see
-[Expressions/Literal expressions](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Projects/Vala/Manual/Expressions#Literal_expressions)
-.
+All these types can be instantiated using a literal expression, see [Expressions/Literal expressions](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Projects/Vala/Manual/Expressions#Literal_expressions).
 
 #### The bool type
 
 Can have values of true of false. Although there are only two values that a bool instance can take, this is not an enumerated type. Each instance is unique and will be copied when required, the same as for the other fundamental value types.
 
-This type can be instantiated using literal expressions, see
-[Expressions/Literal expressions](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Projects/Vala/Manual/Expressions#Literal_expressions)
-.
+This type can be instantiated using literal expressions, see [Expressions/Literal expressions](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Projects/Vala/Manual/Expressions#Literal_expressions).
 
 #### Enumerated types
 
