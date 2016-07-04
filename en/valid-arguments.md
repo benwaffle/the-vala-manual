@@ -34,6 +34,5 @@ Valid arguments
 |closure|parameter|int|Specifies the index of the parameter representing the user data for this callback|
 |errordomain|enumeration|bool|Whether the enumeration is an errordomain or not|
 |destroys\_instance|method|bool|Whether the instance is owned by the method|
-|throws|method|string|Type of exception the method throw|s
-  ---------------------- ----------------------------------------------------- ---------- -------------------------------------------------------------------------------------------------------------
+|throws|method|string|Type of exception the method throws|
 
