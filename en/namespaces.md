@@ -8,6 +8,7 @@ The simplest namespace declaration looks like this:
 
 ```vala
 namespace NameSpaceName {
+
 }      
 ```
 
