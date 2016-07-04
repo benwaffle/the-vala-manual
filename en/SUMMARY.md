@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-   * [Authors](AUTHORS.md)
+   * [Authors](../AUTHORS.md)
 * [Overview](overview.md)
    * [Getting Started](getting_started.md)
    * [Documentation Conventions](documentation_conventions.md)
