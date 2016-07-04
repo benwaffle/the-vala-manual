@@ -1,8 +1,5 @@
 # Examples
 
-Examples
-========
-
 Defining delegates:
 
 ```vala
