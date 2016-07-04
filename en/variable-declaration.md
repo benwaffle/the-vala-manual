@@ -40,7 +40,7 @@ Variable Declaration Statements define a local variable in current scope. The de
 
 -   variable-declaration-with-type-inference:
 
-    -   var identifier **=** expression **;**
+    -   **var** identifier **=** expression **;**
 
 The `dynamic` declaration allows a base type for a variable to be declared which allows subclasses to be assigned and used without needing to be cast. This feature is particularly useful when using Factory style patterns, such as those employed by GStreamer. At this stage, only dynamic properties are supported.
 
