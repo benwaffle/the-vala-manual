@@ -15,6 +15,10 @@ public class HelloWorld : Object {
 
 The source code for Vala programs are stored in one or more UTF-8 encoded text files with the extension ".vala", such as `hello.vala`. Simple programs like the one above can be compiled with a command like:
 
-`valac -o hello hello.vala`
+`valac hello.vala`
 
-This will produce an executable file called `hello`. `valac` is the Vala compiler. It allows you to take more control of the compilation and linking processes, which is outside the scope of this introductory section.
+This will produce an executable file called `hello` which when run will produce the following output:
+
+`hello, world`
+
+
