@@ -4,4 +4,5 @@ There are two types of Vala input files. Vala source files (with a ".vala" or a 
 
 There are no requirements for how Vala source files are named, although there are conventions that can be followed. VAPI files are usually named to matched the pkg-config name of the library they relate to. They are more fully described in the documentation about bindings. 
 
-All Vala input files must be UTF-8 encoded.
+
+> All Vala input files must be UTF-8 encoded.
