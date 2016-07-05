@@ -22,7 +22,9 @@ A variable can take ownership of an instance, the precise meaning of which depen
 
 If a type is directly instantiated in a variable declaration statement, then the variable will be created owning that new instance. For example:
 
-    string s = "stringvalue";
+```vala
+string s = "stringvalue";
+```
 
 A variable ceases to exist when its scope is destroyed, that is when the code block it is defined in finishes. After this, the name can no longer be used to access the instance, and no new assignment to the variable is allowed. What happens to the instance itself is dependent on the type.
 
