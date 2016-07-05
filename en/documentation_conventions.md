@@ -20,4 +20,4 @@ class MyClass : Object {
 	int field = 1;
 }
 ```
-Some phrases are used in a specific ways in this document. It is useful to recognise their precise meanings: that is, to create a method, you write a declaration for it. When the program is running and the method exists, it is then defined as per your declaration and can be invoked.
+Some phrases are used in a specific ways in this document, please refer to the [Glossary](GLOSSARY.md) for their canonical definition.
