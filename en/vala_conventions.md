@@ -8,12 +8,12 @@ For reasons of clarity, it is not encouraged to include declarations in more tha
 
 In source code, the following naming conventions are normally followed:
 
--   Namespaces are named in camel case: NameSpaceName
+-   Namespaces are named in camel case: `NameSpaceName`
 
--   Classes are named in camel case: ClassName
+-   Classes are named in camel case: `ClassName`
 
--   Method names are all lowercase and use underscores to separate words: method\_name
+-   Method names are all lowercase and use underscores to separate words: `method_name`
 
--   Constants (and values of enumerated types) are all uppercase, with underscores between words: CONSTANT\_NAME
+-   Constants (and values of enumerated types) are all uppercase, with underscores between words: `CONSTANT_NAME`
 
 Vala supports the notion of a package to conveniently divide program sections. A package is either a combination of an installed system library and its Vala binding, or a local directory that is treated in a similar way. In the latter case it will contain all functionality related to some topic, the scope of which is up to the developer. All source files are placed within a directory named after the package. For details on using packages, see the Vala compiler documentation
