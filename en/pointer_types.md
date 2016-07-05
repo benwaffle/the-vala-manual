@@ -7,3 +7,9 @@ Instances of any type can be assigned to a variable that is declared to be a poi
 The `void*` type represents a pointer to an unknown type. As the referent type is unknown, the indirection operator cannot be applied to a pointer of type `void*`, nor can any arithmetic be performed on such a pointer. However, a pointer of type `void*` can be cast to any other pointer type (and vice-versa) and compared to values of other pointer types. See [Expressions/Type operations](type-operations.md).
 
 A pointer type itself has value type semantics.
+
+To free the memory allocated to a pointer, use the `delete` statement. i.e.
+
+```vala
+delete mypointer;
+```
