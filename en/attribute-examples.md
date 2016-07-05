@@ -1,5 +1,9 @@
 # Examples
 
+### Gtk Attributes
+
+This example shows how to use the Gtk attributes to automatically bind a Glade XML representation of UI to a Vala Class.
+
 mywidget.vala
 ```vala
 using Gtk;
