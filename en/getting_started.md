@@ -3,6 +3,8 @@
 The classic "Hello, world" example in Vala:
 
 ```vala
+using GLib;
+
 public class HelloWorld : Object {
 
     public static int main(string[] args) {
@@ -21,4 +23,8 @@ This will produce an executable file called `hello` which will produce the follo
 
 `hello, world`
 
+Although simple, this program illustrates several key features of Vala.
+* The `using GLib;` directive references the GLib namespace. Although this is redundant as the GLib namespace is automatically added to all Vala files, it is provided for clarity.
+* The `main` method is a static member of the `HelloWorld` class. This means it is globally accessible through the class name rather than an instance.
+* The entry point for a program, which is the first method called when it begins executing, is always called `main`. An alternative entry point can be specified but it must not be an instance member.
 
