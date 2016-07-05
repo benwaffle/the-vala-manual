@@ -9,7 +9,7 @@
 |Date|Item|
 |---|---|
 |30 July 2016|Full English Version Complete for Vala 0.30|
-|1 August 2016|Launch Crowd-in project to translate to Spanish, Portuguese and Polish|
+|1 August 2016|Launch Crowd-in project to translate to Spanish, Portuguese, Japanese and Polish|
 
 
 
