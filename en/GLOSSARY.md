@@ -10,7 +10,7 @@ Is a bundle of low-level system libraries that provides advanced data structures
 
 ## GNOME
 
-A free and open-source software stack for building Desktop applications
+A free and open-source software stack for building Desktop applications.
 
 ## GObject
 
