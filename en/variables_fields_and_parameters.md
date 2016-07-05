@@ -12,7 +12,9 @@ In order to access data, the instance must be identifiable in some way, such as 
 
 Within executable code in a method, an instance may be assigned to a variable. A variable has a name and is declared to refer to an instance of a particular data type. A typical variable declaration would be:
 
-    int a;
+```vala
+int a;
+```
 
 This declaration defines that "a" should become an expression that evaluates to an instance of the int type. The actual value of this expression will depend on which int instance is assigned to the variable. "a" can be assigned to more than once, with the most recent assignment being the only one considered when "a" is evaluated. Assignment to the variable is achieved via an assignment expression. Generally, the semantics of an assignment expression depends on the type of the variable.
 
