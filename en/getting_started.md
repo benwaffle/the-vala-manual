@@ -3,10 +3,14 @@
 The classic "Hello, world" example in Vala:
 
 ```vala
-int main(string[] args) {
-    stdout.printf("hello, world");
-    return 0;
-}       
+public class HelloWorld : Object {
+
+    public static int main(string[] args) {
+        stdout.printf("hello, world");
+        return 0;
+    } 
+    
+}
 ```
 
 Store the code in a file whose name ends in ".vala", such as `hello.vala`, and compile it with the command:
