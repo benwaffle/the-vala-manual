@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-   * [Documentation Conventions](documentation_conventions.md)
    * [Authors](../AUTHORS.md)
+   * [Documentation Conventions](documentation_conventions.md)
 * [Overview](overview.md)
    * [Getting Started](getting_started.md)
    * [Vala Source Files](vala_source_files.md)
