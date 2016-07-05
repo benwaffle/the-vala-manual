@@ -13,5 +13,7 @@
 
 
 
+All contributors are expected to abide by the Valadate Project Code of Conduct.
+
 
 Cover Image: By NASA/JPL-Caltech - [NASA Image of the Day](https://commons.wikimedia.org/w/index.php?curid=10197951), Public Domain, 
