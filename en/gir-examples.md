@@ -20,6 +20,6 @@ public class MyList : GLib.List<int> {
 ```
 Then you can use GLib.List or NameSpace.MyList as if equal.
 
-## Skipping Simbols
+## Skipping Symbols
 
-`MySimbol skip`
+`MySymbol skip`
