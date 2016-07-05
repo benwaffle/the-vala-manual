@@ -20,4 +20,4 @@ class MyClass : Object {
 	int field = 1;
 }
 ```
-Some phrases are used in a specific ways in this document, please refer to the [Glossary](GLOSSARY.md) for their canonical definition.
+Some phrases are used in a specific ways in this document, please refer to the [Glossary](GLOSSARY.md) for their canonical definitions.
