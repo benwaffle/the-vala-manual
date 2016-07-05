@@ -17,7 +17,7 @@ The source code for Vala programs are stored in one or more UTF-8 encoded text f
 
 `valac hello.vala`
 
-This will produce an executable file called `hello` which when run will produce the following output:
+This will produce an executable file called `hello` which will produce the following output when run:
 
 `hello, world`
 
