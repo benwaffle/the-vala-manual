@@ -11,9 +11,6 @@
 |30 July 2016|Full English Version Complete for Vala 0.30|
 |1 August 2016|Launch Crowd-in project to translate to Spanish, Portuguese, Japanese and Polish|
 
-
-
-All contributors are expected to abide by the Valadate Project Code of Conduct.
-
+All contributors are expected to honor the [Open Code of Conduct](http://todogroup.org/opencodeofconduct/#Valadate/chebizarro@gmail.com).
 
 Cover Image: By NASA/JPL-Caltech - [NASA Image of the Day](https://commons.wikimedia.org/w/index.php?curid=10197951), Public Domain, 
