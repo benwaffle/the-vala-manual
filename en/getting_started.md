@@ -13,7 +13,7 @@ public class HelloWorld : Object {
 }
 ```
 
-Store the code in a file whose name ends in ".vala", such as `hello.vala`, and compile it with the command:
+The source code for Vala programs are stored in one or more UTF-8 encoded text files with the extension ".vala", such as `hello.vala`. Simple programs like the one above can be compiled with a command like:
 
 `valac -o hello hello.vala`
 
