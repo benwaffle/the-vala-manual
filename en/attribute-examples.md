@@ -129,7 +129,7 @@ my-resources.xml
 </gresources>
 ```
 Makefile
-```m4
+```make
 VALAC=valac
 
 all: demo
