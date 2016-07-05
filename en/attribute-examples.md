@@ -2,7 +2,7 @@
 
 ### Gtk Attributes
 
-This example shows how to use the Gtk attributes to automatically bind a Glade XML representation of UI to a Vala Class. While it would be possible to do this on the command line in several steps, a Makefile is used to automate the process.
+This example shows how to use the Gtk attributes to automatically bind a Glade XML representation of a UI to a Vala Class. While it would be possible to do all of this on the command line in several steps, a Makefile is used to automate the process.
 
 mywidget.vala
 ```vala
@@ -154,3 +154,13 @@ mywidget.c:mywidget.vala
 demo: mywidget.o my-resources.o
 	gcc -o $@  $^ `pkg-config --libs gtk+-3.0 gmodule-export-2.0`
 ```
+
+To compile and run the program:
+```bash
+$ make
+$ ./demo
+```
+
+You should see the following:
+
+![](../images/gtk-attributes-example.png)
