@@ -30,8 +30,6 @@ The `static` modifier is applicable to methods also. A static method is independ
 
     -   **override**
 
-    -   **abstract**
-
 Methods can be virtual, as described in [Concepts/Object oriented programming](object_oriented_programming.md). Methods in Vala classes are not virtual automatically, instead the "virtual" modifier must be used when it is needed. Virtual methods will only chain up if overridden using the override keyword.
 
 Vala classes may also define abstract methods, by writing the declaration with the "abstract" modifier and replacing the method body with an empty statement ";". Abstract methods are not true methods, as they do not have an associated statement block, and so cannot be invoked. Abstract methods can only exist in abstract classes, and must be overridden in derived classes. For this reason an abstract method is always virtual.
