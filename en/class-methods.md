@@ -30,6 +30,7 @@ The `static` modifier is applicable to methods also. A static method is independ
 
     -   **override**
 
+    -   **abstract**
 
 Methods can be virtual, as described in [Concepts/Object oriented programming](object_oriented_programming.md). Methods in Vala classes are not virtual automatically, instead the "virtual" modifier must be used when it is needed. Virtual methods will only chain up if overridden using the override keyword.
 
