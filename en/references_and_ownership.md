@@ -8,7 +8,7 @@ A central concept of Vala's memory management system is ownership. An instance i
 
 When dealing with instances of value types (see [Types](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Types#)) knowledge of ownership is rarely important. This is because the instance is copied whenever it is assigned to a new identifier. This will cause each identifier to become owner of a unique instance - that instance will then be deallocated when the identifier ceases to be valid.
 
-There is one exception to this rule: when a struct type instance is passed to a method, Vala will, by default, create the method parameter as a reference to the instance instead of copying the instance. This reference is a weak reference, as described in the following section. If the struct should instead be copied, and the parameter created as a standard value type identifier, the ownership transfer operator should be used (see [Expressions/Ownership transfer expressions](http://wiki.gnome.org/action/show/Projects/Vala/Manual/Export/Vala/Manual/Expressions#Ownership_transfer_expressions)).
+There is one exception to this rule: when a struct type instance is passed to a method, Vala will, by default, create the method parameter as a reference to the instance instead of copying the instance. This reference is a weak reference, as described in the following section. If the struct should instead be copied, and the parameter created as a standard value type identifier, the ownership transfer operator should be used (see [Expressions/Ownership transfer expressions](ownership-transfer-expressions.md)).
 
 #### Reference types
 
